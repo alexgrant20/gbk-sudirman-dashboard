@@ -1,0 +1,18 @@
+{
+  "idx": { "label": "IDX Indonesia (Bursa Efek Indonesia, SCBD)", "lat": -6.2246, "lon": 106.8092, "keywords": ["idx", "bursa efek", "scbd"] },
+  "istora": { "label": "Istora Senayan", "lat": -6.2266, "lon": 106.8022, "keywords": ["istora"] },
+  "jcc": { "label": "Jakarta Convention Center (JCC)", "lat": -6.2135, "lon": 106.7999, "keywords": ["jcc", "jakarta convention center", "balai sidang"] },
+  "indonesia-arena": { "label": "Indonesia Arena", "lat": -6.2185, "lon": 106.8025, "keywords": ["indonesia arena"] },
+  "stadion-utama": { "label": "Stadion Utama GBK", "lat": -6.2188, "lon": 106.8022, "keywords": ["stadion utama", "main stadium", "sug"] },
+  "hutan-kota": { "label": "Hutan Kota GBK", "lat": -6.2140, "lon": 106.8050, "keywords": ["hutan kota"] },
+  "plaza-parkir-timur": { "label": "Plaza Parkir Timur Senayan", "lat": -6.2200, "lon": 106.8070, "keywords": ["parkir timur", "plaza parkir timur", "pptrs"] },
+  "parkir-selatan": { "label": "Parkir Selatan GBK", "lat": -6.2213, "lon": 106.8010, "keywords": ["parkir selatan", "pintu satu senayan"] },
+  "bundaran-senayan": { "label": "Bundaran Senayan", "lat": -6.2249, "lon": 106.7991, "keywords": ["bundaran senayan"] },
+  "bundaran-hi": { "label": "Bundaran HI", "lat": -6.1954, "lon": 106.8231, "keywords": ["bundaran hi", "bunderan hi", "hotel indonesia"] },
+  "senayan-park": { "label": "Senayan Park", "lat": -6.2192, "lon": 106.8005, "keywords": ["senayan park", "gerbang pemuda"] },
+  "kemdikbud": { "label": "Kemdikbudristek Building (Jl. Sudirman, Senayan)", "lat": -6.2213, "lon": 106.8047, "keywords": ["kementerian pendidikan", "kemendikbud", "kemdikbud", "kemendikdasmen", "kemdikdasmen"] },
+  "fx-sudirman": { "label": "FX Sudirman", "lat": -6.2251, "lon": 106.7986, "keywords": ["fx sudirman", "fx senayan"] },
+  "gbk-generic": { "label": "Kawasan GBK / Senayan", "lat": -6.2189, "lon": 106.8020, "keywords": ["gbk", "gelora bung karno", "senayan"], "tier": "area" },
+  "sudirman-thamrin": { "label": "Jl. Sudirman - Thamrin corridor", "lat": -6.2100, "lon": 106.8200, "keywords": ["sudirman", "thamrin"], "tier": "area" },
+  "jakarta-pusat": { "label": "Jakarta Pusat (unspecified venue)", "lat": -6.1862, "lon": 106.8343, "keywords": ["jakarta pusat"], "tier": "city" }
+}

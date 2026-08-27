@@ -1,0 +1,18 @@
+{
+  "name": "gbk-event-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard tracking events around GBK / Sudirman, Jakarta, to check for conflicts near IDX Indonesia on Car Free Day.",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "scrape": "node server/scrapers/run.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2"
+  }
+}
