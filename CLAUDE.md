@@ -1,25 +1,29 @@
 # GBK Event Dashboard
 
-Nationwide Indonesia running-event tracker (in progress pivot from an
-earlier GBK/Sudirman-only conflict-checking dashboard — see design doc
-below for the full rationale and target architecture).
+Nationwide Indonesia running-event tracker (pivoted from an earlier
+GBK/Sudirman-only conflict-checking dashboard — see design doc below for
+the full rationale and target architecture).
 
-## Target architecture (post-pivot)
+## Architecture
 
 No runtime server. A GitHub Actions cron job runs the scrapers and commits
-the published data; the frontend is a static site (GitHub Pages) that reads
-that data directly.
+the published data; a second workflow uploads `public/` to a host over
+FTPS. The frontend is a static site that reads `data/events.json` directly.
 
 ```
-GitHub Actions (cron)
+GitHub Actions (cron, scrape.yml)
   -> node server/scrapers/run.js
-       - jadwallari.js, instagram.js, raceRegistry.js, newsRoundup.js
+       - jadwallari.js, instagram/index.js, raceRegistry/index.js, newsRoundup.js
        - geocode.js (Nominatim/OSM, rate-limited + cached)
   -> writes public/data/events.json, public/data/routes/<id>.jpg
   -> commits back to the repo
 
-GitHub Pages
-  -> serves /public, app.js fetches ./data/events.json (no API)
+GitHub Actions (deploy-ftp.yml)
+  -> uploads public/ to the FTP host over FTPS (SamKirkland/FTP-Deploy-Action)
+  -> triggered on push to public/**, on its own schedule, or manually
+
+FTP host
+  -> serves public/'s contents, app.js fetches ./data/events.json (no API)
 ```
 
 Full design: `docs/superpowers/specs/2026-09-01-nationwide-running-events-design.md`
@@ -43,7 +47,12 @@ Full design: `docs/superpowers/specs/2026-09-01-nationwide-running-events-design
 
 ## Status
 
-Design approved 2026-09-01; implementation not yet started. See the spec
-for what's in scope vs. explicitly out of scope (no manual-add UI, no
-on-demand refresh, no image-to-route-line extraction, GBK/IDX
-conflict-checking feature removed).
+Implemented and merged (2026-09-01, PR #1). See the spec for what's in
+scope vs. explicitly out of scope (no manual-add UI, no on-demand refresh,
+no image-to-route-line extraction, GBK/IDX conflict-checking feature
+removed). Deploy target switched from GitHub Pages to FTP after merge.
+
+Known follow-up not yet done: `server/data/newsSources.json` still holds
+pre-pivot GBK-only URLs (newsRoundup returns 0 until repopulated);
+`jadwallari.test.js` doesn't actually exercise `jadwallari.js`; no test
+exists for `run.js`'s orchestration logic.

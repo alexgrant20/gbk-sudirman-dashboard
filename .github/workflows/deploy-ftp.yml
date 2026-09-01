@@ -1,0 +1,33 @@
+# .github/workflows/deploy-ftp.yml
+name: Deploy to FTP
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "public/**"
+  schedule:
+    # ~15 min after scrape.yml's own "0 */4 * * *" schedule, so a fresh
+    # scrape always has time to commit before this uploads it.
+    - cron: "15 */4 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: "deploy-ftp"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload public/ over FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./public/
+          server-dir: /
