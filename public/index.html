@@ -14,48 +14,27 @@
   <header class="topbar">
     <div>
       <h1>GBK / Sudirman Event Dashboard</h1>
-      <p class="subtitle">Tracking events around Gelora Bung Karno &amp; the CFD Sudirman-Thamrin corridor near IDX Indonesia</p>
+      <p class="subtitle">Tracking running events across Indonesia</p>
     </div>
-    <button id="rescrapeBtn" class="hint-btn" title="Re-run all scrapers now">&#8635; Refresh data</button>
   </header>
 
   <div class="layout">
     <aside class="sidebar">
       <section class="panel">
-        <h2>Check a date</h2>
-        <input type="date" id="checkDate" />
-        <div id="statusBadge" class="status-badge status-neutral">Pick a date to check</div>
-        <div id="statusEvents" class="status-events"></div>
-      </section>
-
-      <section class="panel">
-        <h2>Add event manually</h2>
-        <form id="addForm">
-          <label>Name <input type="text" name="name" required /></label>
-          <label>Date <input type="date" name="date" required /></label>
-          <label>Venue / location <input type="text" name="venue" placeholder="e.g. Istora Senayan" required /></label>
-          <div class="row">
-            <label>Lat <input type="number" step="any" name="lat" required /></label>
-            <label>Lon <input type="number" step="any" name="lon" required /></label>
-          </div>
-          <button type="button" id="pickOnMap" class="secondary-btn">Pick location on map</button>
-          <label>Category <input type="text" name="category" placeholder="e.g. Concert, Expo" /></label>
-          <label>Source URL <input type="url" name="sourceUrl" placeholder="https://..." /></label>
-          <label>Notes <textarea name="notes" rows="2"></textarea></label>
-          <button type="submit" class="primary-btn">Add event</button>
-        </form>
-      </section>
-
-      <section class="panel">
         <h2>Legend</h2>
         <ul class="legend">
-          <li><span class="dot" style="background:#2a78d6"></span> Car Free Day</li>
           <li><span class="dot" style="background:#eb6834"></span> Running event</li>
           <li><span class="dot" style="background:#1baf7a"></span> News roundup (low confidence)</li>
-          <li><span class="dot" style="background:#eda100"></span> Manual entry</li>
           <li><span class="dot" style="background:#4a3aa7"></span> Other</li>
         </ul>
-        <p class="muted">Ring around IDX Indonesia marks a 1.2km check radius. Blue line is the CFD Sudirman-Thamrin corridor.</p>
+      </section>
+
+      <section class="panel" id="detailPanel" hidden>
+        <h2 id="detailName"></h2>
+        <div id="detailMeta"></div>
+        <table id="detailCategories"></table>
+        <img id="detailRouteImage" alt="Route map" hidden />
+        <a id="detailSourceLink" target="_blank" rel="noopener">Source</a>
       </section>
     </aside>
 
