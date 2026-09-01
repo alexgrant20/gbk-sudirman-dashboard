@@ -1,17 +1,14 @@
+// server/scrapers/run.js
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 
-const jadwallari = require("./jadwallari");
-const gbkNews = require("./gbkNews");
-const cfdSchedule = require("./cfdSchedule");
+const { SOURCES } = require("./index");
+const { dedupeKey, downloadRouteImage } = require("./scraperUtils");
 const { isTodayOrFuture } = require("../dateUtils");
 
-const EVENTS_FILE = path.join(__dirname, "..", "data", "events.json");
-
-function dedupeKey(ev) {
-  return `${ev.source}|${ev.name}|${ev.date}`.toLowerCase();
-}
+const EVENTS_FILE = path.join(__dirname, "..", "..", "public", "data", "events.json");
+const ROUTES_DIR = path.join(__dirname, "..", "..", "public", "data", "routes");
 
 function loadExisting() {
   try {
@@ -21,28 +18,38 @@ function loadExisting() {
   }
 }
 
+async function scrapeWithRetries(source) {
+  const maxAttempts = source.retries + 1;
+  let lastErr;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      return await source.module.scrape();
+    } catch (err) {
+      lastErr = err;
+      if (attempt < maxAttempts) {
+        console.warn(`[scrape] ${source.name} attempt ${attempt} failed: ${err.message}, retrying`);
+      }
+    }
+  }
+  throw lastErr;
+}
+
 async function run() {
   const existing = loadExisting();
   const manual = existing.filter((e) => e.source === "manual");
 
-  const results = await Promise.allSettled([
-    jadwallari.scrape(),
-    gbkNews.scrape(),
-    Promise.resolve(cfdSchedule.scrape()),
-  ]);
+  const active = SOURCES.filter((s) => s.enabled);
+  const results = await Promise.allSettled(active.map(scrapeWithRetries));
 
   const scraped = [];
-  const labels = ["jadwallari.id", "gbkNews", "cfdSchedule"];
   results.forEach((r, i) => {
+    const label = active[i].name;
     if (r.status === "fulfilled") {
-      // Safety net: each scraper already filters to today+future, but re-check here
-      // in case a scraper's own date logic slips - scraped (non-manual) events should
-      // never carry a past date into events.json.
       const upcoming = r.value.filter((ev) => isTodayOrFuture(ev.date));
-      console.log(`[scrape] ${labels[i]}: ${upcoming.length} upcoming events (${r.value.length - upcoming.length} past dropped)`);
+      console.log(`[scrape] ${label}: ${upcoming.length} upcoming events (${r.value.length - upcoming.length} past dropped)`);
       scraped.push(...upcoming);
     } else {
-      console.warn(`[scrape] ${labels[i]} failed: ${r.reason.message}`);
+      console.warn(`[scrape] ${label} failed after retries: ${r.reason.message}`);
     }
   });
 
@@ -53,7 +60,16 @@ async function run() {
     if (!seen.has(key)) seen.set(key, ev);
   }
 
-  const merged = Array.from(seen.values()).sort((a, b) => a.date.localeCompare(b.date));
+  const merged = Array.from(seen.values());
+  for (const ev of merged) {
+    if (ev.routeImage && /^https?:\/\//.test(ev.routeImage)) {
+      const filename = await downloadRouteImage(ev.routeImage, ROUTES_DIR, ev.id);
+      ev.routeImage = filename ? `data/routes/${filename}` : null;
+    }
+  }
+  merged.sort((a, b) => a.date.localeCompare(b.date));
+
+  fs.mkdirSync(path.dirname(EVENTS_FILE), { recursive: true });
   fs.writeFileSync(EVENTS_FILE, JSON.stringify(merged, null, 2));
   console.log(`[scrape] wrote ${merged.length} total events (${manual.length} manual preserved) to ${EVENTS_FILE}`);
   return { total: merged.length, manual: manual.length };
