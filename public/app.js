@@ -74,7 +74,7 @@ function renderMarkers(events) {
     m.bindPopup(
       `<strong>${escapeHtml(ev.name)}</strong><br/>${ev.date}<br/>${escapeHtml(ev.venue || ev.location || "")}` +
         (ev.confidence === "low" ? `<br/><em>low confidence - verify via source</em>` : "") +
-        (ev.sourceUrl ? `<br/><a href="${ev.sourceUrl}" target="_blank" rel="noopener">source</a>` : "")
+        (isSafeUrl(ev.sourceUrl) ? `<br/><a href="${escapeHtml(ev.sourceUrl)}" target="_blank" rel="noopener">source</a>` : "")
     );
     m.on("click", () => showEventDetail(ev));
     clusterGroup.addLayer(m);
@@ -132,7 +132,7 @@ function showEventDetail(ev) {
   }
 
   const link = document.getElementById("detailSourceLink");
-  if (ev.sourceUrl) {
+  if (isSafeUrl(ev.sourceUrl)) {
     link.href = ev.sourceUrl;
     link.hidden = false;
   } else {
@@ -150,6 +150,13 @@ function showEventDetail(ev) {
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+// Only http(s) URLs are safe to render as a clickable link - scraped
+// sourceUrl values come from third-party page markup and could otherwise
+// carry a javascript: URL or similar.
+function isSafeUrl(url) {
+  return typeof url === "string" && /^https?:\/\//i.test(url);
 }
 
 // --- Filters ---
