@@ -10,6 +10,13 @@ const { isTodayOrFuture } = require("../dateUtils");
 const EVENTS_FILE = path.join(__dirname, "..", "..", "public", "data", "events.json");
 const ROUTES_DIR = path.join(__dirname, "..", "..", "public", "data", "routes");
 
+// Derives a stable id from an event's dedupe key so the same underlying
+// event gets the same id on every scrape run (unlike crypto.randomUUID(),
+// which would mint a new id every run even for byte-identical source data).
+function stableId(key) {
+  return crypto.createHash("sha1").update(key).digest("hex").slice(0, 16);
+}
+
 function loadExisting() {
   try {
     return JSON.parse(fs.readFileSync(EVENTS_FILE, "utf8"));
@@ -56,7 +63,14 @@ async function run() {
   const seen = new Map();
   for (const ev of [...manual, ...scraped]) {
     const key = dedupeKey(ev);
-    if (!ev.id) ev.id = crypto.randomUUID();
+    // Manual entries keep whatever id they were created with. Scraped events
+    // get a deterministic id derived from their dedupe key so re-scraping
+    // identical source data yields the same id every run - a random UUID
+    // here would make events.json (and downloaded route-image filenames,
+    // which are keyed by id) churn on every run even with no real change.
+    if (!ev.id) {
+      ev.id = ev.source === "manual" ? crypto.randomUUID() : stableId(key);
+    }
     if (!seen.has(key)) seen.set(key, ev);
   }
 
