@@ -24,16 +24,27 @@ function cacheKey(text) {
 function createGeocoder(cacheFile) {
   let cache = loadCache(cacheFile);
   let lastRequestAt = 0;
+  // Serializes throttle() calls across concurrent callers so no two requests
+  // fire within MIN_INTERVAL_MS of each other, regardless of how many workers
+  // call geocode() at once. Without this chain, concurrent callers all read
+  // the same stale lastRequestAt, compute the same wait, and fire together.
+  let throttleQueue = Promise.resolve();
 
   function saveCache() {
     fs.mkdirSync(path.dirname(cacheFile), { recursive: true });
     fs.writeFileSync(cacheFile, JSON.stringify(cache, null, 2));
   }
 
-  async function throttle() {
-    const wait = MIN_INTERVAL_MS - (Date.now() - lastRequestAt);
-    if (wait > 0) await new Promise((r) => setTimeout(r, wait));
-    lastRequestAt = Date.now();
+  function throttle() {
+    const result = throttleQueue.then(async () => {
+      const wait = MIN_INTERVAL_MS - (Date.now() - lastRequestAt);
+      if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+      lastRequestAt = Date.now();
+    });
+    // Keep the queue alive even if this link's caller later throws - the
+    // chain itself never rejects since throttle's body can't throw.
+    throttleQueue = result;
+    return result;
   }
 
   async function geocode(text) {
@@ -43,6 +54,11 @@ function createGeocoder(cacheFile) {
 
     await throttle();
     let place = null;
+    // Only cache a definitive "no results" outcome. A non-ok response (e.g.
+    // 429/403 rate-limit or block) or a thrown exception is a transient
+    // failure, not evidence the place doesn't exist - don't poison the cache
+    // with it, so a future run can retry.
+    let shouldCache = false;
     try {
       const url = `${NOMINATIM_URL}?format=json&limit=1&countrycodes=id&q=${encodeURIComponent(text)}`;
       const res = await fetch(url, {
@@ -50,6 +66,7 @@ function createGeocoder(cacheFile) {
       });
       if (res.ok) {
         const results = await res.json();
+        shouldCache = true;
         if (results.length) {
           place = {
             label: results[0].display_name,
@@ -60,10 +77,13 @@ function createGeocoder(cacheFile) {
       }
     } catch {
       place = null;
+      shouldCache = false;
     }
 
-    cache[key] = place;
-    saveCache();
+    if (shouldCache) {
+      cache[key] = place;
+      saveCache();
+    }
     return place;
   }
 
