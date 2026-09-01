@@ -61,9 +61,7 @@ map.addLayer(clusterGroup);
 
 let allEvents = [];
 const markersById = new Map();
-
-// TODO(Task 17): full implementation lands here
-function showEventDetail(ev) {}
+let activeRouteLine = null;
 
 function renderMarkers(events) {
   clusterGroup.clearLayers();
@@ -78,6 +76,7 @@ function renderMarkers(events) {
         (ev.confidence === "low" ? `<br/><em>low confidence - verify via source</em>` : "") +
         (ev.sourceUrl ? `<br/><a href="${ev.sourceUrl}" target="_blank" rel="noopener">source</a>` : "")
     );
+    m.on("click", () => showEventDetail(ev));
     clusterGroup.addLayer(m);
     if (ev.id) markersById.set(ev.id, m);
   });
@@ -92,6 +91,61 @@ function openEventOnMap(ev) {
     return;
   }
   clusterGroup.zoomToShowLayer(m, () => m.openPopup());
+}
+
+function formatPrice(price) {
+  return price == null ? "—" : `Rp${price.toLocaleString("id-ID")}`;
+}
+
+function formatCutoff(minutes) {
+  if (minutes == null) return "—";
+  return minutes >= 60 ? `${(minutes / 60).toFixed(1)}h` : `${minutes}min`;
+}
+
+function showEventDetail(ev) {
+  document.getElementById("detailPanel").hidden = false;
+  document.getElementById("detailName").textContent = ev.name;
+  document.getElementById("detailMeta").textContent =
+    `${ev.date} · ${ev.venue || ev.location || "unknown location"}`;
+
+  const table = document.getElementById("detailCategories");
+  table.innerHTML = "";
+  const categories = ev.categories || [];
+  if (categories.length) {
+    const header = document.createElement("tr");
+    header.innerHTML = "<th>Distance</th><th>Price</th><th>Cutoff</th>";
+    table.appendChild(header);
+    categories.forEach((c) => {
+      const row = document.createElement("tr");
+      row.innerHTML = `<td>${escapeHtml(c.distance)}</td><td>${formatPrice(c.price)}</td><td>${formatCutoff(c.cutoffMinutes)}</td>`;
+      table.appendChild(row);
+    });
+  }
+
+  const img = document.getElementById("detailRouteImage");
+  if (ev.routeImage) {
+    img.src = ev.routeImage;
+    img.hidden = false;
+  } else {
+    img.hidden = true;
+    img.removeAttribute("src");
+  }
+
+  const link = document.getElementById("detailSourceLink");
+  if (ev.sourceUrl) {
+    link.href = ev.sourceUrl;
+    link.hidden = false;
+  } else {
+    link.hidden = true;
+  }
+
+  if (activeRouteLine) {
+    map.removeLayer(activeRouteLine);
+    activeRouteLine = null;
+  }
+  if (Array.isArray(ev.routeGeo) && ev.routeGeo.length > 1) {
+    activeRouteLine = L.polyline(ev.routeGeo, { color: "#eb6834", weight: 4, opacity: 0.9 }).addTo(map);
+  }
 }
 
 function escapeHtml(s) {
