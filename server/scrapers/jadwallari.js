@@ -1,10 +1,10 @@
 const cheerio = require("cheerio");
 const { geocode } = require("../geocode");
 const { isTodayOrFuture } = require("../dateUtils");
+const { parseCategoriesFromText } = require("./scraperUtils");
 
 const SOURCE_URL = "https://jadwallari.id/events/";
 const DETAIL_FETCH_CONCURRENCY = 5;
-const AREA_KEYWORDS = /gbk|gelora bung karno|senayan|sudirman|thamrin|scbd|\bidx\b/i;
 
 const ID_MONTHS = {
   januari: "01", februari: "02", maret: "03", april: "04", mei: "05",
@@ -91,39 +91,25 @@ async function scrape() {
     const date = parseIndoDate(dateRaw);
     if (!date || !isTodayOrFuture(date)) return; // drop events that already happened
 
-    // Cheap pre-filter on the table row alone (city-level "Jakarta Pusat" is a broad
-    // net cast wide on purpose - it also catches events whose GBK/Senayan/Sudirman
-    // location only shows up once we fetch the precise venue below).
-    const locLower = location.toLowerCase();
-    const nameLower = name.toLowerCase();
-    const relevant = locLower.includes("jakarta pusat") || AREA_KEYWORDS.test(nameLower) || AREA_KEYWORDS.test(locLower);
-    if (!relevant) return;
-
     candidates.push({ name, date, dateRaw, distances, type, location, link });
   });
 
   const mapped = await mapWithConcurrency(candidates, DETAIL_FETCH_CONCURRENCY, async (c) => {
     const preciseVenue = c.link ? await fetchPreciseVenue(c.link) : null;
     const geocodeText = preciseVenue ? `${c.name} ${preciseVenue}` : `${c.name} ${c.location}`;
-    const place = geocode(geocodeText) || geocode(c.location);
-
-    // Strict relevance check now that we have the real venue text: "Jakarta Pusat"
-    // alone is too broad (it also covers e.g. Kemayoran, several km from GBK/Sudirman)
-    // - only keep events that resolve to a specific known venue, or whose venue text
-    // itself names the GBK/Senayan/Sudirman area.
-    const combinedText = `${c.name} ${preciseVenue || c.location}`;
-    const isRelevant = (place && !place.tier) || AREA_KEYWORDS.test(combinedText);
-    if (!isRelevant) return null;
+    const place = (await geocode(geocodeText)) || (await geocode(c.location));
 
     let confidence = "low";
-    if (place && !place.tier && preciseVenue) confidence = "high";
+    if (place && preciseVenue) confidence = "high";
     else if (place) confidence = "medium";
 
     return {
       name: c.name,
       date: c.date,
       dateRaw: c.dateRaw,
-      distances: c.distances,
+      categories: parseCategoriesFromText(c.distances),
+      routeImage: null,
+      routeGeo: null,
       category: c.type || "Running Event",
       location: preciseVenue || c.location,
       venue: place ? place.label : preciseVenue || c.location,
