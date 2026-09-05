@@ -1,28 +1,5 @@
 [
   {
-    "name": "iB RUN 2026",
-    "date": "2026-09-05",
-    "dateRaw": "5 September 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "UIN Sunan Kalijaga Yogyakarta Jl. Laksda Adisucipto, Papringan, Sleman, Daerah Istimewa Yogyakarta",
-    "venue": "Sleman, Daerah Istimewa Yogyakarta, Indonesia",
-    "lat": -7.6894175,
-    "lon": 110.3812904,
-    "sourceUrl": "https://jadwallari.id/events/ib-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "67a3b06aa9afc678"
-  },
-  {
     "name": "JETE RUN 2026",
     "date": "2026-09-06",
     "dateRaw": "6 September 2026",
