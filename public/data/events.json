@@ -2268,13 +2268,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Gelora Bung Karno (GBK), Senayan, Jakarta Pusat, DKI Jakarta",
-    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
-    "lat": -6.1823399,
-    "lon": 106.8428715,
+    "location": "Jakarta Pusat, DKI Jakarta",
+    "venue": "Victoria, Jalan Gajah Mada, RW 08, Petojo Utara, Gambir, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, 10160, Indonesia",
+    "lat": -6.1664959,
+    "lon": 106.8200581,
     "sourceUrl": "https://jadwallari.id/events/victoria-run/",
     "source": "jadwallari.id",
-    "confidence": "high",
+    "confidence": "medium",
     "id": "a2066c60b862d84b"
   },
   {

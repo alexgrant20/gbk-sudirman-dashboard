@@ -469,5 +469,10 @@
     "lon": 106.9945444
   },
   "emba jetbus run malang 10k alun-alun tugu malang, jawa timur|yuk, daftarkan dirimu sekarang!": null,
-  "sanur bali international half marathon 2027 sanur, denpasar, bali": null
+  "sanur bali international half marathon 2027 sanur, denpasar, bali": null,
+  "victoria run 2026 jakarta pusat, dki jakarta": {
+    "label": "Victoria, Jalan Gajah Mada, RW 08, Petojo Utara, Gambir, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, 10160, Indonesia",
+    "lat": -6.1664959,
+    "lon": 106.8200581
+  }
 }
