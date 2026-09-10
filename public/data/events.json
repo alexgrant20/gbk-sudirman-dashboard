@@ -122,6 +122,52 @@
     "id": "a997fc0d54362b7f"
   },
   {
+    "name": "FUN RUN 70TH SMANSA",
+    "date": "2026-09-13",
+    "dateRaw": "13 September 2026",
+    "categories": [
+      {
+        "distance": "7K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "SMA Negeri 1 Tanjungpinang, Jl. DR. Sutomo, Kota Tanjung Pinang, Kepulauan Riau",
+    "venue": "Tanjungpinang, Kepulauan Riau, Indonesia",
+    "lat": 0.9236915,
+    "lon": 104.446094,
+    "sourceUrl": "https://jadwallari.id/events/fun-run-smansa/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "81fcd1096d7e0863"
+  },
+  {
+    "name": "J&T Fun Run Jambi 2026",
+    "date": "2026-09-13",
+    "dateRaw": "13 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Kota Baru, Jambi|Yuk, Daftarakan Diri Kamu Sekarang!!!",
+    "venue": "Jambi, Indonesia",
+    "lat": -1.6296917,
+    "lon": 103.6077806,
+    "sourceUrl": "https://jadwallari.id/events/jnt-fun-run-jambi/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "bd5dc6c4a51b0f27"
+  },
+  {
     "name": "Madiun Running Fest 2026",
     "date": "2026-09-13",
     "dateRaw": "13 September 2026",
@@ -214,6 +260,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "2f54783f62f06703"
+  },
+  {
+    "name": "Shiratha Launching & Charity Fun Run For Buya Hamka",
+    "date": "2026-09-13",
+    "dateRaw": "13 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Parkir Selatan GBK, Jakarta Pusat, DKI Jakarta",
+    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.1823399,
+    "lon": 106.8428715,
+    "sourceUrl": "https://jadwallari.id/events/shiratha-charity-fun-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "2538203a4ad489b1"
   },
   {
     "name": "SiBakul Jogja Sport Fest 2026",
@@ -354,6 +423,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "49a3648513e66d94"
+  },
+  {
+    "name": "Pesta LeLARIan 2026",
+    "date": "2026-09-19",
+    "dateRaw": "19 September 2026",
+    "categories": [
+      {
+        "distance": "5.5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "MNP Campus Jl. Jenderal Gatot Subroto No.Kav.1, Gading Serpong, Tangerang, Banten",
+    "venue": "Tangerang, Banten, Indonesia",
+    "lat": -6.1761924,
+    "lon": 106.6382161,
+    "sourceUrl": "https://jadwallari.id/events/pesta-lelarian/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "a13eee1b7facff24"
   },
   {
     "name": "JETE Vitual Run 2026",
@@ -656,6 +748,29 @@
     "id": "0ba40f94c7dfd43c"
   },
   {
+    "name": "GMP Charity Run 5K",
+    "date": "2026-09-20",
+    "dateRaw": "20 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Charity Run",
+    "location": "K-Square Mall, Jl. Jenderal Sudirman No.25-35, Kota Batam, Kepulauan Riau",
+    "venue": "Batam, Kepulauan Riau, Indonesia",
+    "lat": 1.1030815,
+    "lon": 104.0383696,
+    "sourceUrl": "https://jadwallari.id/events/gmp-charity-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "dd47ae190741bb78"
+  },
+  {
     "name": "Hemaviton Action Run 2026",
     "date": "2026-09-20",
     "dateRaw": "20 September 2026",
@@ -717,27 +832,27 @@
     "id": "266eb53af283baa9"
   },
   {
-    "name": "Metland Run for Fun Series 4",
+    "name": "Miles of Hope #2",
     "date": "2026-09-20",
     "dateRaw": "20 September 2026",
     "categories": [
       {
-        "distance": "5K",
+        "distance": "Bebas",
         "price": null,
         "cutoffMinutes": null
       }
     ],
     "routeImage": null,
     "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Bogor, Tangerang, Jakarta Timur, Cikarang, Majalengka, dan Bekasi",
-    "venue": "Cikarang, Jalan Yos Sudarso, Cikarang Kota, Cikarang, Kab Bekasi, Jawa Barat, 17383, Indonesia",
-    "lat": -6.2553138,
-    "lon": 107.1450733,
-    "sourceUrl": "https://jadwallari.id/events/metland-run-for-fun-series/",
+    "category": "Charity Run",
+    "location": "Jakarta Pusat, DKI Jakarta",
+    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.1823399,
+    "lon": 106.8428715,
+    "sourceUrl": "https://jadwallari.id/events/miles-of-hope/",
     "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "f0d66ce4b5754a7f"
+    "confidence": "medium",
+    "id": "12dfbba8bbad5b6c"
   },
   {
     "name": "Pocari Sweat Virtual Run 2026",
@@ -827,6 +942,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "4e84f4797e025656"
+  },
+  {
+    "name": "Silent Disco Run",
+    "date": "2026-09-20",
+    "dateRaw": "20 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Aloft by Marriott Surabaya Pakuwon City, Kec. Mulyorejo, Surabaya, Jawa Timur",
+    "venue": "Surabaya, Jawa Timur, Indonesia",
+    "lat": -7.2462836,
+    "lon": 112.7377674,
+    "sourceUrl": "https://jadwallari.id/events/silent-disco-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "de13d878f4a005ac"
   },
   {
     "name": "Soekarno Run BWX 2026",
@@ -961,6 +1099,34 @@
     "id": "8d30a4544f1c6a01"
   },
   {
+    "name": "TNI RUN 2026 Jakarta",
+    "date": "2026-09-20",
+    "dateRaw": "20 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Monas, Silang Barat Daya, Merdeka Square, Gambir, Jakarta Pusat, DKI Jakarta",
+    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.1823399,
+    "lon": 106.8428715,
+    "sourceUrl": "https://jadwallari.id/events/tni-run-jakarta/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "f8ae1111fc56509a"
+  },
+  {
     "name": "FIA Run 2026",
     "date": "2026-09-26",
     "dateRaw": "26 September 2026",
@@ -1010,6 +1176,34 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "940b8d3d39eff55c"
+  },
+  {
+    "name": "Tropical Night Run",
+    "date": "2026-09-26",
+    "dateRaw": "26 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Bintan Industrial Estate (BIE), Jl. Tanjung Lobam, Lobam, Bintan, Kepulauan Riau",
+    "venue": "Bintan, Kepulauan Riau, Indonesia",
+    "lat": 1.0196577,
+    "lon": 104.5698189,
+    "sourceUrl": "https://jadwallari.id/events/tropical-night-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "4ec9f86c70608bc9"
   },
   {
     "name": "Six to Six Night Trail Endurance",
@@ -1327,6 +1521,52 @@
     "id": "e55d2e09b2466929"
   },
   {
+    "name": "Metland Run for Fun Series 4",
+    "date": "2026-09-27",
+    "dateRaw": "27 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Bogor, Tangerang, Jakarta Timur, Cikarang, Majalengka, dan Bekasi",
+    "venue": "Cikarang, Jalan Yos Sudarso, Cikarang Kota, Cikarang, Kab Bekasi, Jawa Barat, 17383, Indonesia",
+    "lat": -6.2553138,
+    "lon": 107.1450733,
+    "sourceUrl": "https://jadwallari.id/events/metland-run-for-fun-series/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "071a424c12bf0cda"
+  },
+  {
+    "name": "Pasuruan Culture Run",
+    "date": "2026-09-27",
+    "dateRaw": "27 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Taman Candra Wilwatikta, Jl. DR. Soetomo No.2, Pandaan, Pasuruan, Jawa Timur",
+    "venue": "Pasuruan, Jawa Timur, Indonesia",
+    "lat": -7.7508114,
+    "lon": 112.818483,
+    "sourceUrl": "https://jadwallari.id/events/pasuruan-culture-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "7d01ac15324b1242"
+  },
+  {
     "name": "ProBuild Challenge Run 2026",
     "date": "2026-09-27",
     "dateRaw": "27 September 2026",
@@ -1416,6 +1656,62 @@
     "id": "0596ab182c4317cc"
   },
   {
+    "name": "Solo Run Fest 2026",
+    "date": "2026-09-27",
+    "dateRaw": "27 September 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "HM",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Stadion Manahan Solo, Surakarta, Jawa Tengah|Daftar Sekarang!",
+    "venue": "Surakarta, Kecamatan Pasar Kliwon, Jawa Tengah, Indonesia",
+    "lat": -7.5692489,
+    "lon": 110.828448,
+    "sourceUrl": "https://jadwallari.id/events/solo-run-fest/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "5e04fb0702fe836e"
+  },
+  {
+    "name": "Sultan Agung Fun Run",
+    "date": "2026-09-27",
+    "dateRaw": "27 September 2026",
+    "categories": [
+      {
+        "distance": "5.5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Kantor Gubernur Jawa Tengah, Jl Pahlawan No.9, Kota Semarang, Jawa Tengah",
+    "venue": "Kota Semarang, Jawa Tengah, Indonesia",
+    "lat": -6.9903988,
+    "lon": 110.4229104,
+    "sourceUrl": "https://jadwallari.id/events/sultan-agung-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "92b9aced9f4bc7c2"
+  },
+  {
     "name": "Suparma Run 2026",
     "date": "2026-09-27",
     "dateRaw": "27 September 2026",
@@ -1500,6 +1796,57 @@
     "id": "d899de8e790cfba8"
   },
   {
+    "name": "Charity Run 2026",
+    "date": "2026-10-04",
+    "dateRaw": "4 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Ammaia Ecoforest Gallery, Jl. Suvarna Sutera Boulevard, Tangerang, Banten",
+    "venue": "Depok, Jawa Barat, Indonesia",
+    "lat": -6.40719,
+    "lon": 106.8158371,
+    "sourceUrl": "https://jadwallari.id/events/charity-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "53965c7779f882c0"
+  },
+  {
+    "name": "Commuter Run 2026",
+    "date": "2026-10-04",
+    "dateRaw": "4 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Stasiun BNI City - Sudirman, Jakarta Pusat, DKI Jakarta|Yuk, Daftar Sekarang!",
+    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.1823399,
+    "lon": 106.8428715,
+    "sourceUrl": "https://jadwallari.id/events/kai-commuter-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "99ae165c9fb2e73e"
+  },
+  {
     "name": "Crystalin Run Xperience 2026 Jakarta",
     "date": "2026-10-04",
     "dateRaw": "4 Oktober 2026",
@@ -1564,6 +1911,52 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "286d0c21a82d7f35"
+  },
+  {
+    "name": "Harris Share The Miles 2026",
+    "date": "2026-10-04",
+    "dateRaw": "4 Oktober 2026",
+    "categories": [
+      {
+        "distance": "7K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "HARRIS Conventions Hall, Summarecon, Bekasi, Jawa Barat|Daftar Sekarang!",
+    "venue": "Bekasi, Jawa Barat, Indonesia",
+    "lat": -6.2349858,
+    "lon": 106.9945444,
+    "sourceUrl": "https://jadwallari.id/events/harris-share-the-miles/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "fc5f8080ac19a235"
+  },
+  {
+    "name": "K-POP Run Festival Malang 2026",
+    "date": "2026-10-04",
+    "dateRaw": "4 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Malang Badminton Arena (MBA), Jl. Raya Langsep No. 4a, Kota Malang, Jawa Timur",
+    "venue": "Kota Malang, Klojen, Jawa Timur, Indonesia",
+    "lat": -7.9771308,
+    "lon": 112.6340265,
+    "sourceUrl": "https://jadwallari.id/events/k-pop-run-festival-malang/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "75d21d43e9b74b0b"
   },
   {
     "name": "Kepri Island Run 2026",
@@ -1884,6 +2277,29 @@
     "id": "699449582f337e8c"
   },
   {
+    "name": "Mapala Poliwangi Run Challenge 2026",
+    "date": "2026-10-10",
+    "dateRaw": "10 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Kampus Politeknik Negeri Banyuwangi (Poliwangi), Banyuwangi, Jawa Timur",
+    "venue": "Banyuwangi, Jawa Timur, Indonesia",
+    "lat": -8.3325711,
+    "lon": 114.141579,
+    "sourceUrl": "https://jadwallari.id/events/mapala-poliwangi-run-challenge/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "efebc981a6f2909e"
+  },
+  {
     "name": "Ciputra Run The Ramp 2026",
     "date": "2026-10-10",
     "dateRaw": "10 Oktober 2026",
@@ -2027,6 +2443,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "32bc8b98d991181d"
+  },
+  {
+    "name": "IDI Bojonegoro Medikrun 2026",
+    "date": "2026-10-11",
+    "dateRaw": "11 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "GoFun Bojonegoro, Jl. Veteran No.20, Jambean, Sukorejo, Bojonegoro, Jawa Timur",
+    "venue": "Bojonegoro, Jawa Timur, Indonesia",
+    "lat": -7.2278714,
+    "lon": 111.81462,
+    "sourceUrl": "https://jadwallari.id/events/idi-bojonegoro-medikrun/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "4ff806f06c4e9128"
   },
   {
     "name": "IHGMA Run Surabaya 2026",
@@ -2184,6 +2623,29 @@
     "id": "41d7b0bb7dd9e885"
   },
   {
+    "name": "Solo Runity",
+    "date": "2026-10-11",
+    "dateRaw": "11 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Charity Run",
+    "location": "Balai Kota Surakarta, Jl. Jend. Sudirman No.2, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah",
+    "venue": "Surakarta, Kecamatan Pasar Kliwon, Jawa Tengah, Indonesia",
+    "lat": -7.5692489,
+    "lon": 110.828448,
+    "sourceUrl": "https://jadwallari.id/events/solo-runity/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "700ee9181e18c53d"
+  },
+  {
     "name": "UI Half Marathon 2026",
     "date": "2026-10-11",
     "dateRaw": "11 Oktober 2026",
@@ -2278,6 +2740,34 @@
     "id": "a2066c60b862d84b"
   },
   {
+    "name": "Race to Selo 2026",
+    "date": "2026-10-17",
+    "dateRaw": "17 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "8K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Selong Selo Resort &amp; Villas, Jl. Batu Jangkih Sepi, Praya Barat, Lombok Tengah, NTB",
+    "venue": "Lombok Tengah, Nusa Tenggara Barat, Indonesia",
+    "lat": -8.703071,
+    "lon": 116.2899373,
+    "sourceUrl": "https://jadwallari.id/events/race-to-selo/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "9867877031ce459f"
+  },
+  {
     "name": "Alfamart Run 2026",
     "date": "2026-10-18",
     "dateRaw": "18 Oktober 2026",
@@ -2360,6 +2850,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "c66d0abe691cce95"
+  },
+  {
+    "name": "IPTI Charity Run 2026",
+    "date": "2026-10-18",
+    "dateRaw": "18 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Charity Run",
+    "location": "TCC Tanjungpinang, Sei Jang, Bukit Bestari, Tanjung Pinang, Kepulauan Riau",
+    "venue": "Tanjungpinang, Kepulauan Riau, Indonesia",
+    "lat": 0.9236915,
+    "lon": 104.446094,
+    "sourceUrl": "https://jadwallari.id/events/ipti-charity-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "37a8d432f04f31e5"
   },
   {
     "name": "Merumatta Half Marathon 2026",
@@ -2451,6 +2964,29 @@
     "id": "5977e7f1af5a7d4b"
   },
   {
+    "name": "Pink Pulse Run 2026",
+    "date": "2026-10-18",
+    "dateRaw": "18 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Plaza Festival, Jl. H. R. Rasuna Said No.22 Kav. C, Jakarta Selatan, DKI Jakarta",
+    "venue": "Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.2838694,
+    "lon": 106.8048297,
+    "sourceUrl": "https://jadwallari.id/events/pink-pulse-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "1154c6c3b2a8cc56"
+  },
+  {
     "name": "Red Crest Trails 757",
     "date": "2026-10-18",
     "dateRaw": "18 Oktober 2026",
@@ -2494,6 +3030,57 @@
     "id": "321b4b59a92e3689"
   },
   {
+    "name": "Road to Give Makassar 2026",
+    "date": "2026-10-18",
+    "dateRaw": "18 Oktober 2026",
+    "categories": [
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Charity Run",
+    "location": "Four Points by Sheraton Makassar, Jl. Andi Djemma No.130, Makassar, Sulsel",
+    "venue": "Makassar, Sulawesi Selatan, Indonesia",
+    "lat": -5.1342962,
+    "lon": 119.4124282,
+    "sourceUrl": "https://jadwallari.id/events/road-to-give/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "a3704cd170cb69e9"
+  },
+  {
+    "name": "Road To Give Surabaya 2026",
+    "date": "2026-10-18",
+    "dateRaw": "18 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Charity Run",
+    "location": "Aloft Surabaya Pakuwon City, Kec. Mulyorejo, Surabaya, Jawa Timur",
+    "venue": "Surabaya, Jawa Timur, Indonesia",
+    "lat": -7.2462836,
+    "lon": 112.7377674,
+    "sourceUrl": "https://jadwallari.id/events/road-to-give-surabaya/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "ad0d72e178d196d4"
+  },
+  {
     "name": "Run for Changes 2026",
     "date": "2026-10-18",
     "dateRaw": "18 Oktober 2026",
@@ -2520,6 +3107,52 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "98d93f84610c6f33"
+  },
+  {
+    "name": "RUNNURSE 2026",
+    "date": "2026-10-18",
+    "dateRaw": "18 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Poltekkes Kemenkes Surabaya, Jl. Pucang Jajar Tengah No.56, Surabaya, Jawa Timur",
+    "venue": "Surabaya, Jawa Timur, Indonesia",
+    "lat": -7.2462836,
+    "lon": 112.7377674,
+    "sourceUrl": "https://jadwallari.id/events/runnurse/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "60518e8ba500b612"
+  },
+  {
+    "name": "SEGI TIGA G RUN 5K",
+    "date": "2026-10-18",
+    "dateRaw": "18 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Tugu Pahlawan, Jl. Pahlawan, Alun-alun Contong, Kec. Bubutan, Surabaya, Jawa Timur",
+    "venue": "Surabaya, Jawa Timur, Indonesia",
+    "lat": -7.2462836,
+    "lon": 112.7377674,
+    "sourceUrl": "https://jadwallari.id/events/segi-tiga-g-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "1e99acf91d459951"
   },
   {
     "name": "Siak Run 2026",
@@ -2576,6 +3209,62 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "521c481cb0beaed8"
+  },
+  {
+    "name": "Susurun 2026",
+    "date": "2026-10-18",
+    "dateRaw": "18 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Alun Alun Kidul Boyolali, Boyolali, Jawa Tengah|Yuk, Daftar Sekarang!",
+    "venue": "Boyolali, Jawa Tengah, Indonesia",
+    "lat": -7.3872118,
+    "lon": 110.7038691,
+    "sourceUrl": "https://jadwallari.id/events/susurun/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "e5b389bc8535bc29"
+  },
+  {
+    "name": "Dahana Run",
+    "date": "2026-10-24",
+    "dateRaw": "24 Oktober 2026",
+    "categories": [
+      {
+        "distance": "2.5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Alun-Alun Kabupaten Subang, Jl. Wangsa Goparana No. 2, Kab. Subang, Jawa Barat",
+    "venue": "Subang, Jawa Barat, Indonesia",
+    "lat": -6.5689807,
+    "lon": 107.7587397,
+    "sourceUrl": "https://jadwallari.id/events/dahana-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "00a099440226017b"
   },
   {
     "name": "Jakarta Running Festival 2026",
@@ -2728,6 +3417,57 @@
     "id": "13c6c57b02d06160"
   },
   {
+    "name": "Ini Karimun Fun Run 2026",
+    "date": "2026-10-25",
+    "dateRaw": "25 Oktober 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Bandara RHA Karimun, Jl. May Jend Sutoyo No. KM12, Tebing, Karimun, Kepulauan Riau",
+    "venue": "Karimun, Kepulauan Riau, Indonesia",
+    "lat": 0.7653871,
+    "lon": 103.4287445,
+    "sourceUrl": "https://jadwallari.id/events/ini-karimun-fun-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "935ae8ce33e3859a"
+  },
+  {
+    "name": "K-24 Healthy Run",
+    "date": "2026-10-25",
+    "dateRaw": "25 Oktober 2026",
+    "categories": [
+      {
+        "distance": "2.4K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Gelanggang Inovasi dan Kreativitas (GIK) UGM, Jl. Persatuan, Sleman, DI Yogyakarta",
+    "venue": "Sleman, Daerah Istimewa Yogyakarta, Indonesia",
+    "lat": -7.6894175,
+    "lon": 110.3812904,
+    "sourceUrl": "https://jadwallari.id/events/k-24-healthy-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "3b9d1f7997ac0dec"
+  },
+  {
     "name": "Laris Run 2026 Sukoharjo",
     "date": "2026-10-25",
     "dateRaw": "25 Oktober 2026",
@@ -2759,6 +3499,39 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "871c471088f73bad"
+  },
+  {
+    "name": "AFS Sunset Run & Walk 2026",
+    "date": "2026-10-31",
+    "dateRaw": "31 Oktober 2026",
+    "categories": [
+      {
+        "distance": "3K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Aloha, Pasir Putih, PIK 2, Kosambi, Tangerang, Banten",
+    "venue": "Tangerang, Banten, Indonesia",
+    "lat": -6.1761924,
+    "lon": 106.6382161,
+    "sourceUrl": "https://jadwallari.id/events/afs-sunset-run-and-walk/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "a76f94f4b745c330"
   },
   {
     "name": "Erafone Run 2026 Manado",
@@ -2815,6 +3588,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "b31a9af2bdd30f82"
+  },
+  {
+    "name": "ANLENE OSTEOWALK 10.000 Langkah & OSTEORUN 5K",
+    "date": "2026-11-01",
+    "dateRaw": "1 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run, Fun Walk",
+    "location": "Plaza Tenggara, GBK, Jakarta Pusat, DKI Jakarta",
+    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.1823399,
+    "lon": 106.8428715,
+    "sourceUrl": "https://jadwallari.id/events/anlene-10-ribu-langkah/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "e11001c93fe2aae3"
   },
   {
     "name": "Arutmin Borneo Run",
@@ -2876,6 +3672,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "b9722c06aa32f8a3"
+  },
+  {
+    "name": "Jawara Banten Run 5K",
+    "date": "2026-11-01",
+    "dateRaw": "1 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Halaman Kantor Bupati Serang, Jl. Veteran No. 1, Kec. Serang, Kota Serang, Banten",
+    "venue": "Serang, Banten, Indonesia",
+    "lat": -6.1169662,
+    "lon": 106.1518079,
+    "sourceUrl": "https://jadwallari.id/events/jawara-banten-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "a9ea6e477ff84b65"
   },
   {
     "name": "JUARA RUN 2.0",
@@ -3041,6 +3860,57 @@
     "id": "851ce3ae7257a9b9"
   },
   {
+    "name": "Jungwok Sunset Run",
+    "date": "2026-11-07",
+    "dateRaw": "7 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Jungwok Blue Ocean and Resort, Jl. Terminal Jungwok, Girisubo, Gunungkidul, DI Yogyakarta",
+    "venue": "Gunungkidul, Daerah Istimewa Yogyakarta, Indonesia",
+    "lat": -7.9930377,
+    "lon": 110.5579309,
+    "sourceUrl": "https://jadwallari.id/events/jungwok-sunset-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "0b1f82c8e56064d7"
+  },
+  {
+    "name": "ASCENT RUN 2026",
+    "date": "2026-11-08",
+    "dateRaw": "8 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "8K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Ascent Premiere &amp; Convention Pasuruan, Kec. Gadingrejo, Kota Pasuruan, Jawa Timur",
+    "venue": "Pasuruan, Jawa Timur, Indonesia",
+    "lat": -7.7508114,
+    "lon": 112.818483,
+    "sourceUrl": "https://jadwallari.id/events/ascent-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "3e432c567f315f16"
+  },
+  {
     "name": "Bayrun For Charity 2026",
     "date": "2026-11-08",
     "dateRaw": "8 November 2026",
@@ -3102,6 +3972,39 @@
     "id": "b6be0826c5565667"
   },
   {
+    "name": "Indofest Fun Trail Running",
+    "date": "2026-11-08",
+    "dateRaw": "8 November 2026",
+    "categories": [
+      {
+        "distance": "6K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "14K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "21K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Trail Run",
+    "location": "The Ciliwung Adventure Camp, Cisarua, Bogor, Jawa Barat",
+    "venue": "Bogor, Jawa Barat, Indonesia",
+    "lat": -6.5963564,
+    "lon": 106.7973188,
+    "sourceUrl": "https://jadwallari.id/events/indofest-fun-trail-running/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "6c87339a3dce12b7"
+  },
+  {
     "name": "Lari Ikut Aruss 2026",
     "date": "2026-11-08",
     "dateRaw": "8 November 2026",
@@ -3128,6 +4031,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "7f0ce5d381f69688"
+  },
+  {
+    "name": "Pharma Run 2026",
+    "date": "2026-11-08",
+    "dateRaw": "8 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Pendopo Ronggo Djoemeno, Caruban, Krajan, Kec. Wonoasri, Kabupaten Madiun, Jawa Timur",
+    "venue": "Kota Madiun, Jawa Timur, Indonesia",
+    "lat": -7.6290837,
+    "lon": 111.5168819,
+    "sourceUrl": "https://jadwallari.id/events/pharma-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "1e74d3258033d01a"
   },
   {
     "name": "PLN Electric Run 2026",
@@ -3260,6 +4186,29 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "8b472b53c06fc3a8"
+  },
+  {
+    "name": "Suroboyo Mlayu Bengi",
+    "date": "2026-11-14",
+    "dateRaw": "14 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Tugu Pahlawan, Jl. Pahlawan, Alun-alun Contong, Bubutan, Surabaya, Jawa Timur",
+    "venue": "Surabaya, Jawa Timur, Indonesia",
+    "lat": -7.2462836,
+    "lon": 112.7377674,
+    "sourceUrl": "https://jadwallari.id/events/suroboyo-mlayu-bengi/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "a82eeedb12b25ddb"
   },
   {
     "name": "Bank Jateng Borobudur Marathon 2026",
@@ -3448,6 +4397,39 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "b9013bf33d536b1f"
+  },
+  {
+    "name": "Tahura Banten Trail Run 2026",
+    "date": "2026-11-22",
+    "dateRaw": "22 November 2026",
+    "categories": [
+      {
+        "distance": "7K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "17K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "25K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Trail Run",
+    "location": "Tahura Banten, Desa Sukarame, Kecamatan Carita, Pandeglang, Banten",
+    "venue": "Pandeglang, Banten, Indonesia",
+    "lat": -6.5473765,
+    "lon": 105.7994879,
+    "sourceUrl": "https://jadwallari.id/events/tahura-banten-trail-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "429af4230fcf5403"
   },
   {
     "name": "Capital Market Run 2026",
@@ -3757,6 +4739,77 @@
     "id": "41f50f1cfc5b6a50"
   },
   {
+    "name": "Industropolis Run 2026",
+    "date": "2026-12-06",
+    "dateRaw": "6 Desember 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "HM",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Kawasan Industri Terpadu Batang - Pelabuhan, Batang, Jawa Tengah",
+    "venue": "Batang, Jawa Tengah, Indonesia",
+    "lat": -7.0323546,
+    "lon": 109.867953,
+    "sourceUrl": "https://jadwallari.id/events/industropolis-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "2911c087a8d15238"
+  },
+  {
+    "name": "Pertamina Eco RunFest 2026",
+    "date": "2026-12-06",
+    "dateRaw": "6 Desember 2026",
+    "categories": [
+      {
+        "distance": "1.5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "HM",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Plaza Parkir Timur &amp; Istora Senayan, Jakarta Pusat, DKI Jakarta",
+    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.1823399,
+    "lon": 106.8428715,
+    "sourceUrl": "https://jadwallari.id/events/pertamina-eco-runfest/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "6ef4ad851bae0c49"
+  },
+  {
     "name": "Run for Sumatera",
     "date": "2026-12-10",
     "dateRaw": "10 Desember 2025 - 4 Januari 2026",
@@ -3778,6 +4831,29 @@
     "source": "jadwallari.id",
     "confidence": "low",
     "id": "eb798018ea3c5f12"
+  },
+  {
+    "name": "Batam Night Run Vol. 3",
+    "date": "2026-12-12",
+    "dateRaw": "12 Desember 2026",
+    "categories": [
+      {
+        "distance": "7K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "MTC Batu Besar, Nongsa, Batam, Kepulauan Riau|Yuk, Daftarkan Dirimu Sekarang!",
+    "venue": "Batam, Kepulauan Riau, Indonesia",
+    "lat": 1.1030815,
+    "lon": 104.0383696,
+    "sourceUrl": "https://jadwallari.id/events/batam-night-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "1a9687c76a022d0c"
   },
   {
     "name": "Metland Run for Fun Series 6",
@@ -3946,6 +5022,34 @@
     "source": "jadwallari.id",
     "confidence": "low",
     "id": "08eab644b6a1422f"
+  },
+  {
+    "name": "HOKIBANK Run 2027",
+    "date": "2027-01-17",
+    "dateRaw": "17 Januari 2027",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Kawasan BMTH - Pelabuhan Benoa, Jl. Raya Pelabuhan Benoa, Pedungan, Denpasar, Bali",
+    "venue": "Denpasar, Bali, Indonesia",
+    "lat": -8.6653349,
+    "lon": 115.2176191,
+    "sourceUrl": "https://jadwallari.id/events/hokibank-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "7b8a604b884a2e89"
   },
   {
     "name": "EMBA JETBUS Run Malang 10K",
