@@ -1,56 +1,5 @@
 [
   {
-    "name": "ARTERUN",
-    "date": "2026-09-12",
-    "dateRaw": "12 September 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Lokananta Bloc, Jl. A. Yani No.379 A, Kerten, Kec. Laweyan, Kota Surakarta, Jawa Tengah",
-    "venue": "Surakarta, Kecamatan Pasar Kliwon, Jawa Tengah, Indonesia",
-    "lat": -7.5692489,
-    "lon": 110.828448,
-    "sourceUrl": "https://jadwallari.id/events/arterun/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "81cf2a6b635bac99"
-  },
-  {
-    "name": "IEE Run for Charity 2026",
-    "date": "2026-09-12",
-    "dateRaw": "12 September 2026",
-    "categories": [
-      {
-        "distance": "3K",
-        "price": null,
-        "cutoffMinutes": null
-      },
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Road Run",
-    "location": "Jakarta International Expo, Jl. Benyamin Suaeb, Kemayoran, Jakarta Pusat",
-    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
-    "lat": -6.1823399,
-    "lon": 106.8428715,
-    "sourceUrl": "https://jadwallari.id/events/iee-run-for-charity/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "23b31bfae065ed60"
-  },
-  {
     "name": "VOTCHA 2026",
     "date": "2026-09-13",
     "dateRaw": "12-13 September 2026",
