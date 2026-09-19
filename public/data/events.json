@@ -1,28 +1,5 @@
 [
   {
-    "name": "Pesta LeLARIan 2026",
-    "date": "2026-09-19",
-    "dateRaw": "19 September 2026",
-    "categories": [
-      {
-        "distance": "5.5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "MNP Campus Jl. Jenderal Gatot Subroto No.Kav.1, Gading Serpong, Tangerang, Banten",
-    "venue": "Tangerang, Banten, Indonesia",
-    "lat": -6.1761924,
-    "lon": 106.6382161,
-    "sourceUrl": "https://jadwallari.id/events/pesta-lelarian/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "a13eee1b7facff24"
-  },
-  {
     "name": "JETE Vitual Run 2026",
     "date": "2026-09-20",
     "dateRaw": "6 - 20 September 2026",
