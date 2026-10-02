@@ -1,8 +1,8 @@
 [
   {
     "name": "Jatim Fest 5K Fun Night Run Vol 2",
-    "date": "2026-10-02",
-    "dateRaw": "2 Oktober 2026",
+    "date": "2026-10-03",
+    "dateRaw": "3 Oktober 2026",
     "categories": [
       {
         "distance": "5K",
@@ -13,47 +13,14 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Exhibition Hall, Grand City Surabaya, Jl. Walikota Mustajab No. 1, Surabaya",
+    "location": "Exhibition Hall, Grand City Surabaya, Jl. Walikota Mustajab No. 1, Surabaya, Jawa Timur",
     "venue": "Surabaya, Jawa Timur, Indonesia",
     "lat": -7.2462836,
     "lon": 112.7377674,
     "sourceUrl": "https://jadwallari.id/events/jatim-fest-fun-night-run/",
     "source": "jadwallari.id",
     "confidence": "high",
-    "id": "87ffb1f7adc7388c"
-  },
-  {
-    "name": "Karimunjawa Beach Trail Run",
-    "date": "2026-10-04",
-    "dateRaw": "2-4 Oktober 2026",
-    "categories": [
-      {
-        "distance": "7K",
-        "price": null,
-        "cutoffMinutes": null
-      },
-      {
-        "distance": "10K",
-        "price": null,
-        "cutoffMinutes": null
-      },
-      {
-        "distance": "21K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Trail Run",
-    "location": "Kepulauan Karimunjawa, Kab. Jepara, Jawa Tengah",
-    "venue": "Jepara, Jawa Tengah, Indonesia",
-    "lat": -6.5994983,
-    "lon": 110.7832207,
-    "sourceUrl": "https://jadwallari.id/events/karimunjawa-beach-trail-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "9353aa4383cfee77"
+    "id": "c400c92befbce200"
   },
   {
     "name": "Bintan Triathlon 2026",
@@ -265,57 +232,6 @@
     "id": "fc5f8080ac19a235"
   },
   {
-    "name": "K-POP Run Festival Malang 2026",
-    "date": "2026-10-04",
-    "dateRaw": "4 Oktober 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Malang Badminton Arena (MBA), Jl. Raya Langsep No. 4a, Kota Malang, Jawa Timur",
-    "venue": "Kota Malang, Klojen, Jawa Timur, Indonesia",
-    "lat": -7.9771308,
-    "lon": 112.6340265,
-    "sourceUrl": "https://jadwallari.id/events/k-pop-run-festival-malang/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "75d21d43e9b74b0b"
-  },
-  {
-    "name": "Kepri Island Run 2026",
-    "date": "2026-10-04",
-    "dateRaw": "4 Oktober 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      },
-      {
-        "distance": "10K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Pacific Palace Hotel, Batam, Jl. Duyung, Batu Ampar, Kota Batam, Kepulauan Riau",
-    "venue": "Batam, Kepulauan Riau, Indonesia",
-    "lat": 1.1030815,
-    "lon": 104.0383696,
-    "sourceUrl": "https://jadwallari.id/events/kepri-island-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "8552dddff427b7b4"
-  },
-  {
     "name": "Livora Fun Run 2026",
     "date": "2026-10-04",
     "dateRaw": "4 Oktober 2026",
@@ -446,29 +362,6 @@
     "id": "cb2b593cfca43c2d"
   },
   {
-    "name": "RefoRun",
-    "date": "2026-10-04",
-    "dateRaw": "4 Oktober 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Universitas Lampung, Jl. Prof. Dr. Ir. Sumantri Brojonegoro No.1, Kota Bandar Lampung, Lampung",
-    "venue": "Bandar Lampung, Lampung, Indonesia",
-    "lat": -5.4460713,
-    "lon": 105.2643742,
-    "sourceUrl": "https://jadwallari.id/events/reforun/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "22dfe58bf0c60097"
-  },
-  {
     "name": "Road To Give Lampung 2026",
     "date": "2026-10-04",
     "dateRaw": "4 Oktober 2026",
@@ -513,29 +406,6 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "5001bc85a80aaa5a"
-  },
-  {
-    "name": "SevenK Run",
-    "date": "2026-10-04",
-    "dateRaw": "4 Oktober 2026",
-    "categories": [
-      {
-        "distance": "7K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Polda Metro Jaya, Jl. Jenderal Sudirman No. Kav. 55, Kebayoran Baru, Jakarta Selatan, DKI Jakarta",
-    "venue": "Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia",
-    "lat": -6.2838694,
-    "lon": 106.8048297,
-    "sourceUrl": "https://jadwallari.id/events/sevenk-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "3ce9cf2bd2b54304"
   },
   {
     "name": "​Sociolla Bestie Pink Run Bali",
@@ -2756,6 +2626,34 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "c515d68c1a459739"
+  },
+  {
+    "name": "Kepri Island Run 2026",
+    "date": "2026-11-01",
+    "dateRaw": "1 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Pacific Palace Hotel, Batam, Jl. Duyung, Batu Ampar, Kota Batam, Kepulauan Riau",
+    "venue": "Batam, Kepulauan Riau, Indonesia",
+    "lat": 1.1030815,
+    "lon": 104.0383696,
+    "sourceUrl": "https://jadwallari.id/events/kepri-island-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "088ee18ec1ee9caa"
   },
   {
     "name": "LT MEN Power Run 2026 Surabaya",
