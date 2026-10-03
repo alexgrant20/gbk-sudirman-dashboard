@@ -1,28 +1,5 @@
 [
   {
-    "name": "Jatim Fest 5K Fun Night Run Vol 2",
-    "date": "2026-10-03",
-    "dateRaw": "3 Oktober 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Exhibition Hall, Grand City Surabaya, Jl. Walikota Mustajab No. 1, Surabaya, Jawa Timur",
-    "venue": "Surabaya, Jawa Timur, Indonesia",
-    "lat": -7.2462836,
-    "lon": 112.7377674,
-    "sourceUrl": "https://jadwallari.id/events/jatim-fest-fun-night-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "c400c92befbce200"
-  },
-  {
     "name": "Bintan Triathlon 2026",
     "date": "2026-10-04",
     "dateRaw": "3-4 Oktober 2026",
