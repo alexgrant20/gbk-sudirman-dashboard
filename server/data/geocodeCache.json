@@ -737,5 +737,53 @@
     "lon": 109.3447488
   },
   "jatim fest 5k fun night run vol 2 exhibition hall, grand city surabaya, jl. walikota mustajab no. 1, surabaya, jawa timur": null,
-  "run4more volume 3 plaza internatio, kota lama surabaya, kec. krembangan, surabaya, jawa timur": null
+  "run4more volume 3 plaza internatio, kota lama surabaya, kec. krembangan, surabaya, jawa timur": null,
+  "batam berlari 2026 alun alun engku putri batam centre, teluk tering, batam kota, batam, kepulauan riau": null,
+  "bank sumsel babel run 2026 jakabaring sport city, palembang, sumatera selatan": null,
+  "depok kids run festival 2026 depok open space (dos), area balai kota depok, depok, jawa barat": null,
+  "jakarta one running series: jakarta selatan scbd, jl. epicentrum boulevard bar. no. 2, jakarta selatan": null,
+  "luwes orange run 2026 gentan luwes gentan, solo raya &amp; blok t, jl. merpati i no.14, sukoharjo, jawa tengah": null,
+  "alix fun run 5k 2026 smpit al ikhlas bekasi, jl. rw. semut 2, jakamulya, kec. bekasi sel., bekasi, jawa barat": null,
+  "wd fun run series ii 2026 wisata desa bmj mojopahit, mojokerto, jawa timur|yuk, daftar sekarang!": null,
+  "agrirunfest 2026 kampus politeknik pembangunan pertanian bogor, jl. aria surialaga, bogor, jawa barat": null,
+  "jujutsu kaisen run 2026 senayan park, jl. gerbang pemuda no.3, tanah abang, jakarta pusat, dki jakarta": null,
+  "luwes orange run 2026 blora luwes blora, jl. jendral sudirman, kec. blora, blora, jawa tengah": null,
+  "guardian run istora senayan, tanah abang, jakarta pusat, dki jakarta|yuk, daftar sekarang!": null,
+  "kolaka half marathon pelataran rumah adat kolaka, sulawesi tenggara": null,
+  "ub trail run ub forest, bontoro, tumpang rejo, ngenep, kec. karang ploso, kab. malang, jawa timur": null,
+  "majesty track race majesty city resort, pilangrejo, kec. wungu, kabupaten madiun, jawa timur": null,
+  "kolaka, sulawesi tenggara": {
+    "label": "Kolaka, Sulawesi Tenggara, 93563, Indonesia",
+    "lat": -4.1213511,
+    "lon": 121.6929444
+  },
+  "kala 10k pemalang alun-alun pemalang, kebondalem, kec. pemalang, kab. pemalang, jawa tengah": null,
+  "indo marines run 2026 yonif 10 marinir barelang bridge, jl. trans barelang, bulang, batam, kepulauan riau": null,
+  "bali coast trail 2026 candi dasa, kecamatan manggis, kabupaten karangasem, bali": null,
+  "ks fun run 2026 kiara artha park, jl. banten, kebonwaru, kec. batununggal, kota bandung, jawa barat": null,
+  "pemalang, jawa tengah": {
+    "label": "Pemalang, Jawa Tengah, Indonesia",
+    "lat": -7.0110802,
+    "lon": 109.3914037
+  },
+  "gogo run 2026 k-square batam, jl. jenderal sudirman no.25-35, sukajadi, batam kota, batam, kepulauan riau": null,
+  "karangasem, bali": {
+    "label": "Karangasem, Bali, Indonesia",
+    "lat": -8.3587533,
+    "lon": 115.5472993
+  },
+  "jakarta one running series: jakarta utara jakarta international stadium - jis, jakarta utara, dki jakarta": null,
+  "jakarta one running series: jakarta barat puri indah mall, jl. puri agung no.1, jakarta barat, dki jakarta": null,
+  "jakarta one running series: jakarta timur jakarta international velodrome, jakarta timur, dki jakarta": null,
+  "jakarta one running series: jakarta pusat lapangan banteng, sawah besar, kota jakarta pusat, dki jakarta": null,
+  "jakarta utara, dki jakarta": {
+    "label": "Jakarta Utara, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.1351965,
+    "lon": 106.893488
+  },
+  "jakarta barat, dki jakarta": {
+    "label": "Jakarta Barat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.161569,
+    "lon": 106.7438905
+  }
 }
