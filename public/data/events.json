@@ -1355,13 +1355,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Hotel Aruss Semarang, Jl. Dr. Wahidin No.116, Candisari, Semarang, Jawa Tengah",
+    "location": "Semarang, Jawa Tengah",
     "venue": "Kota Semarang, Jawa Tengah, Indonesia",
     "lat": -6.9903988,
     "lon": 110.4229104,
     "sourceUrl": "https://jadwallari.id/events/lari-ikut-aruss/",
     "source": "jadwallari.id",
-    "confidence": "high",
+    "confidence": "medium",
     "id": "7f0ce5d381f69688"
   },
   {
@@ -2658,13 +2658,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "CitraLand Surabaya, Sambikerep, Kota Surabaya, Jawa Timur",
+    "location": "Surabaya, Jawa Timur",
     "venue": "Surabaya, Jawa Timur, Indonesia",
     "lat": -7.2462836,
     "lon": 112.7377674,
     "sourceUrl": "https://jadwallari.id/events/citraland-marathon/",
     "source": "jadwallari.id",
-    "confidence": "high",
+    "confidence": "medium",
     "id": "2ba16959105cb115"
   },
   {
@@ -2986,13 +2986,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Citiplaza Bondowoso, Jl. Ahmad Yani No.84, Bondowoso, Jatim",
+    "location": "Bondowoso, Jawa Timur",
     "venue": "Bondowoso, Jawa Timur, Indonesia",
     "lat": -7.9451279,
     "lon": 113.882059,
     "sourceUrl": "https://jadwallari.id/events/bws10k/",
     "source": "jadwallari.id",
-    "confidence": "high",
+    "confidence": "medium",
     "id": "b246e820f1fb172a"
   },
   {
