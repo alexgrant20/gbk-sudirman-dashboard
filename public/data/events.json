@@ -489,13 +489,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Harbour Bay Batam, Jl. Duyung, Kec. Batu Ampar, Kota Batam, Kepulauan Riau",
+    "location": "Batam, Kepulauan Riau",
     "venue": "Batam, Kepulauan Riau, Indonesia",
     "lat": 1.1030815,
     "lon": 104.0383696,
     "sourceUrl": "https://jadwallari.id/events/smartfren-run-batam/",
     "source": "jadwallari.id",
-    "confidence": "high",
+    "confidence": "medium",
     "id": "cdb67e8a2759cdb5"
   },
   {
@@ -1452,13 +1452,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Charity Run",
-    "location": "Baitul Quran Al Jahra Magetan,Jl. Raya Panekan, Kab. Magetan, Jawa Timur",
+    "location": "Magetan, Jawa Timur",
     "venue": "Magetan, Jawa Timur, Indonesia",
     "lat": -7.6542489,
     "lon": 111.3360565,
     "sourceUrl": "https://jadwallari.id/events/insan-running-fest/",
     "source": "jadwallari.id",
-    "confidence": "high",
+    "confidence": "medium",
     "id": "01286e8ebd014932"
   },
   {
