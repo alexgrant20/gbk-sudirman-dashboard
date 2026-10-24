@@ -1,33 +1,5 @@
 [
   {
-    "name": "Dahana Run",
-    "date": "2026-10-24",
-    "dateRaw": "24 Oktober 2026",
-    "categories": [
-      {
-        "distance": "2.5K",
-        "price": null,
-        "cutoffMinutes": null
-      },
-      {
-        "distance": "10K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Road Run",
-    "location": "Alun-Alun Kabupaten Subang, Jl. Wangsa Goparana No. 2, Kab. Subang, Jawa Barat",
-    "venue": "Subang, Jawa Barat, Indonesia",
-    "lat": -6.5689807,
-    "lon": 107.7587397,
-    "sourceUrl": "https://jadwallari.id/events/dahana-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "00a099440226017b"
-  },
-  {
     "name": "Jakarta Running Festival 2026",
     "date": "2026-10-25",
     "dateRaw": "22-25 Oktober 2026",
