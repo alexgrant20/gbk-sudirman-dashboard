@@ -408,13 +408,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Bogor, Jawa Barat",
+    "location": "Marketing Gallery Podomoro Golf View, Jalan Mochamad Thohir Cikuda, Bogor, Jawa Barat",
     "venue": "Bogor, Jawa Barat, Indonesia",
     "lat": -6.5963564,
     "lon": 106.7973188,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/pgv-step-for-fun/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "8d736999c6a3feb8"
   },
   {
@@ -1151,13 +1151,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Yogyakarta, DI Yogyakarta",
+    "location": "Car Free Day (CFD) Sudirman, Jl. Jend. Sudirman No.42-40, Kec. Gondokusuman, Yogyakarta, DIY",
     "venue": "Kota Yogyakarta, Depok, Daerah Istimewa Yogyakarta, Indonesia",
     "lat": -7.801349,
     "lon": 110.3647351,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/nu-run/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "6e9cbdb727d58f93"
   },
   {
@@ -1174,13 +1174,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Padang, Sumatera Barat",
+    "location": "Pelataran Pantai Puruih Padang, Padang, Sumatra Barat|Yuk, Daftar Sekarang!",
     "venue": "Padang, Sumatera Barat, Indonesia",
     "lat": -0.9247587,
     "lon": 100.3632561,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/smartfren-run-padang/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "3c3ad2e0bb41840e"
   },
   {
@@ -1197,13 +1197,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Cirebon, Jawa Barat",
+    "location": "Wizzmie Kesambi Cirebon, Jl. Kesambi No.193, Kec. Kesambi, Kota Cirebon, Jawa Barat",
     "venue": "Kota Cirebon, Jawa Barat, Indonesia",
     "lat": -6.7137044,
     "lon": 108.5608483,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/wizzmie-party-run/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "1e10688962f8ceb6"
   },
   {
@@ -1672,6 +1672,29 @@
     "id": "6b58a7b795e0e0f1"
   },
   {
+    "name": "Smartfren Fun Run 2026 Batam",
+    "date": "2026-11-22",
+    "dateRaw": "22 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Harbour Bay Batam, Jl. Duyung, Kec. Batu Ampar, Kota Batam, Kepulauan Riau",
+    "venue": "Batam, Kepulauan Riau, Indonesia",
+    "lat": 1.1030815,
+    "lon": 104.0383696,
+    "sourceUrl": "https://jadwallari.id/events/smartfren-run-batam/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "53c5b6eba139d7a6"
+  },
+  {
     "name": "Summarecon Bandung Run Fest",
     "date": "2026-11-22",
     "dateRaw": "22 November 2026",
@@ -1743,6 +1766,34 @@
     "id": "429af4230fcf5403"
   },
   {
+    "name": "Bhinneka Pahlawan Run 2026",
+    "date": "2026-11-28",
+    "dateRaw": "28 November 2026",
+    "categories": [
+      {
+        "distance": "Kid Dash",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Kebun Raya Bogor, Jl. Otto Iskandardinata No.13, Bogor, Jawa Barat",
+    "venue": "Bogor, Jawa Barat, Indonesia",
+    "lat": -6.5963564,
+    "lon": 106.7973188,
+    "sourceUrl": "https://jadwallari.id/events/bhinneka-pahlawan-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "eebb545cfe64746e"
+  },
+  {
     "name": "Smartfren Fun Run Kupang",
     "date": "2026-11-28",
     "dateRaw": "28 November 2026",
@@ -1756,13 +1807,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Kupang, Nusa Tenggara Timur",
+    "location": "Kantor Gubernur Nusa Tenggara Timur, Jl. El Tari No.52, Kota Raja, Kupang, NTT",
     "venue": "Kupang, Nusa Tenggara Timur, Indonesia",
     "lat": -10.1632209,
     "lon": 123.6017755,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/smartfren-run-kupang/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "2708fd3a34ccf5fd"
   },
   {
@@ -1845,13 +1896,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Surabaya, Jawa Timur",
+    "location": "GOR Bay Arena, Kenjeran Park, Jl. Pantai Ria Kenjeran No.23, Surabaya",
     "venue": "Surabaya, Jawa Timur, Indonesia",
     "lat": -7.2462836,
     "lon": 112.7377674,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/bangor-run-surabaya/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "c643ec4c29d40a5c"
   },
   {
@@ -1924,14 +1975,37 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Banyuwangi, Jawa Timur",
+    "location": "Ruang Terbuka Hijau (RTH) Maron, Perum Bumi Maron, Genteng, Banyuwangi, Jawa Timur",
     "venue": "Banyuwangi, Jawa Timur, Indonesia",
     "lat": -8.3325711,
     "lon": 114.141579,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/hkn-run/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "7a1df6a4ab9d44b1"
+  },
+  {
+    "name": "KAI Pesta LeLARIan Cirebon 2026",
+    "date": "2026-11-29",
+    "dateRaw": "29 November 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Kantor Walikota Cirebon, Jl. Siliwangi No.84, Cirebon, Jawa Barat",
+    "venue": "Kota Cirebon, Jawa Barat, Indonesia",
+    "lat": -6.7137044,
+    "lon": 108.5608483,
+    "sourceUrl": "https://jadwallari.id/events/kai-pesta-lelarian-cirebon/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "60e34e49c536682a"
   },
   {
     "name": "Kala 10K Pemalang",
@@ -2277,6 +2351,39 @@
     "id": "fffc3f774750b9fe"
   },
   {
+    "name": "Bank Sumsel Babel Run 2026",
+    "date": "2026-12-06",
+    "dateRaw": "6 Desember 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "HM",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Jakabaring Sport City, Palembang, Sumatera Selatan",
+    "venue": "Palembang Indah Mall, Jalan Kol. Achmad Badaruddin, RW. 02, Kel. 24 ILIR, Kec. Bukit Kecil, Palembang, Bukit Kecil, Palembang, Sumatera Selatan, 30135, Indonesia",
+    "lat": -2.9849492,
+    "lon": 104.7535734,
+    "sourceUrl": "https://jadwallari.id/events/bank-sumsel-babel-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "5a0b521442ce3732"
+  },
+  {
     "name": "BCA CitraLand Marathon 2026",
     "date": "2026-12-06",
     "dateRaw": "6 Desember 2026",
@@ -2473,29 +2580,6 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "c5128a673a7c6bca"
-  },
-  {
-    "name": "Smartfren Fun Run 2026 Batam",
-    "date": "2026-12-06",
-    "dateRaw": "6 Desember 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Harbour Bay Batam, Jl. Duyung, Kec. Batu Ampar, Kota Batam, Kepulauan Riau",
-    "venue": "Batam, Kepulauan Riau, Indonesia",
-    "lat": 1.1030815,
-    "lon": 104.0383696,
-    "sourceUrl": "https://jadwallari.id/events/smartfren-run-batam/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "9279d89bf201ba77"
   },
   {
     "name": "Run for Sumatera",
@@ -2745,17 +2829,17 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Cianjur, Jawa Barat",
+    "location": "Yogya Cianjur, Jl. Arif Rahman Hakim No. 56A, Kec. Cianjur, Cianjur, Jawa Barat",
     "venue": "Cianjur, Jawa Barat, Indonesia",
     "lat": -7.0539936,
     "lon": 107.0692399,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/jurasik/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "dae096f9d340013a"
   },
   {
-    "name": "Kahf Wardah Running Fest",
+    "name": "Kahf x Wardah Running Fest",
     "date": "2026-12-13",
     "dateRaw": "13 Desember 2026",
     "categories": [
@@ -2768,14 +2852,14 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Kediri, Jawa Timur",
+    "location": "Kediri Town Square, Jl. Hasanudin No. 2, Kota, Kota Kediri, Jawa Timur",
     "venue": "Kota Kediri, Jawa Timur, Indonesia",
     "lat": -7.8111057,
     "lon": 112.0046051,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/kahf-wardah-running-fest/",
     "source": "jadwallari.id",
-    "confidence": "medium",
-    "id": "015f020fa0f21238"
+    "confidence": "high",
+    "id": "c850686c35734853"
   },
   {
     "name": "Metland Run for Fun Series 6",
@@ -2783,7 +2867,7 @@
     "dateRaw": "13 Desember 2026",
     "categories": [
       {
-        "distance": "5K",
+        "distance": "7K",
         "price": null,
         "cutoffMinutes": null
       }
@@ -2814,13 +2898,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Surabaya, Jawa Timur",
+    "location": "Marvell City Mall, Jl. Ngagel No.123, Ngagel, Kec. Wonokromo, Surabaya, Jawa Timur",
     "venue": "Surabaya, Jawa Timur, Indonesia",
     "lat": -7.2462836,
     "lon": 112.7377674,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/reny-run-for-good/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "06c40925765c66a8"
   },
   {
@@ -2959,13 +3043,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Mojokerto, Jawa Timur",
+    "location": "Taman Bahari Mojopahit, Prajurit Kulon, Mojokerto, Jatim",
     "venue": "Mojokerto, Jawa Timur, Indonesia",
     "lat": -7.5413377,
     "lon": 112.5094975,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/tribuana-fest-run/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "b645e684431ec705"
   },
   {
@@ -3302,13 +3386,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Cilacap, Jawa Tengah",
+    "location": "Laksana Baru Swalayan, Jl. Diponegoro No.312, Kec. Majenang, Cilacap, Jawa Tengah",
     "venue": "Cilacap, Jawa Tengah, Indonesia",
     "lat": -7.461671,
     "lon": 108.8046146,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/elbe-run/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "164f79c70d44032f"
   },
   {
@@ -3396,6 +3480,29 @@
     "id": "f2ad41085e3de7bd"
   },
   {
+    "name": "Tak Sabar Run 2027",
+    "date": "2027-01-17",
+    "dateRaw": "17 Januari 2027",
+    "categories": [
+      {
+        "distance": "7.5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Rn",
+    "location": "Show Room JETOUR Batam, Lubuk Baja Kota, Lubuk Baja, Batam, Kepulauan Riau",
+    "venue": "Batam, Kepulauan Riau, Indonesia",
+    "lat": 1.1030815,
+    "lon": 104.0383696,
+    "sourceUrl": "https://jadwallari.id/events/tak-sabar-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "946c1a53c8e70ba7"
+  },
+  {
     "name": "Batam Fun Run 7.8K",
     "date": "2027-01-23",
     "dateRaw": "23 Januari 2027",
@@ -3417,6 +3524,39 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "6192143239ff8c98"
+  },
+  {
+    "name": "Arutmin Borneo Run",
+    "date": "2027-01-24",
+    "dateRaw": "24 Januari 2027",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "10K",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "HM",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Road Run",
+    "location": "Halaman Kantor Gubernur Kalimantan Selatan, Banjarbaru",
+    "venue": "Banjarbaru, Kalimantan Selatan, Indonesia",
+    "lat": -3.4430503,
+    "lon": 114.8308481,
+    "sourceUrl": "https://jadwallari.id/events/arutmin-borneo-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "b7d287a3c1e2ff66"
   },
   {
     "name": "EMBA JETBUS Run Malang 10K",
