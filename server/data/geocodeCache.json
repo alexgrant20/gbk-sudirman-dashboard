@@ -950,5 +950,42 @@
   "jurasik 2026 yogya cianjur, jl. arif rahman hakim no. 56a, kec. cianjur, cianjur, jawa barat": null,
   "tribuana fest run x fontana scent run 2026 taman bahari mojopahit, prajurit kulon, mojokerto, jatim": null,
   "elbe run 2027 laksana baru swalayan, jl. diponegoro no.312, kec. majenang, cilacap, jawa tengah": null,
-  "tak sabar run 2027 show room jetour batam, lubuk baja kota, lubuk baja, batam, kepulauan riau": null
+  "tak sabar run 2027 show room jetour batam, lubuk baja kota, lubuk baja, batam, kepulauan riau": null,
+  "fun run with run wave halaman gedung a satu gurindam, univ. maritim raja ali haji, tanjungpinang, kep. riau": null,
+  "icmi one run 2026 jakarta timur, dki jakarta": null,
+  "golkar run 2026 jakarta pusat, dki jakarta": {
+    "label": "DPD DKI Golkar, Jalan Surabaya, RW 05, Menteng, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, 10310, Indonesia",
+    "lat": -6.1976038,
+    "lon": 106.8395835
+  },
+  "she runs the world 2026 jakarta jakarta pusat, dki jakarta": null,
+  "sukra run 2026 indramayu, jawa barat": {
+    "label": "Kecamatan Sukra, Indramayu, Jawa Barat, Indonesia",
+    "lat": -6.3035391,
+    "lon": 107.9540737
+  },
+  "ahy run 2026 bandung bandung, jawa barat": null,
+  "alste heritage fun run & fun walk 2026 hotel kotta, kota lama semarang, kota semarang, jawa tengah": null,
+  "polibatam run 2026 politeknik negeri batam, jl. ahmad yani, kec. batam kota, kota batam, kepulauan riau": null,
+  "purwokerto village run 2026 by ump purwokerto, jawa tengah": null,
+  "rawapening run heritage 2026 semarang, jawa tengah": null,
+  "run the city k square mall, kota batam, jl. jenderal sudirman no.25-35, kota batam, kepulauan riau": null,
+  "runwme 2026 tangerang selatan, banten": null,
+  "she runs the world 2026 medan medan, sumatra utara": null,
+  "she runs the world 2026 yogyakarta yogyakarta, di yogyakarta": null,
+  "ciputra hospital tangerang fun run 5k ciputra hospital citraraya tangerang, kab. tangerang, banten": null,
+  "she runs the world 2026 semarang semarang, jawa tengah": null,
+  "she runs the world 2026 sungai penuh sungai penuh, jambi": null,
+  "transplant fest #3 - run for transplant cfd sudirman, jl. sahid sudirman, jakarta pusat, dki jakarta": null,
+  "bima cepu run fest 2026 blora, jawa tengah": null,
+  "pajamasrun 2026 plaza selatan, taman mini indonesia indah (tmii), jakarta timur, dki jakarta": null,
+  "she runs the world 2026 bandung bandung, jawa barat": null,
+  "sumatera ekspres musi run seri vii 2027 jakabaring sport center, kota palembang, sumatera selatan": null,
+  "bromo marathon 2027 probolinggo, jawa timur": null,
+  "jakarta international marathon 2027 monas - gbk, jakarta pusat, dki jakarta": null,
+  "palembang, sumatera selatan": {
+    "label": "Palembang, Sumatera Selatan, Indonesia",
+    "lat": -2.9888243,
+    "lon": 104.7568507
+  }
 }
