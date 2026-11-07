@@ -1,51 +1,5 @@
 [
   {
-    "name": "Alix Fun Run 5K 2026",
-    "date": "2026-11-07",
-    "dateRaw": "7 November 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "SMPIT Al Ikhlas Bekasi, Jl. Rw. Semut 2, Jakamulya, Kec. Bekasi Sel., Bekasi, Jawa Barat",
-    "venue": "Bekasi, Jawa Barat, Indonesia",
-    "lat": -6.2349858,
-    "lon": 106.9945444,
-    "sourceUrl": "https://jadwallari.id/events/alix-fun-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "8eabd58911289973"
-  },
-  {
-    "name": "Jungwok Sunset Run",
-    "date": "2026-11-07",
-    "dateRaw": "7 November 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Jungwok Blue Ocean and Resort, Jl. Terminal Jungwok, Girisubo, Gunungkidul, DI Yogyakarta",
-    "venue": "Gunungkidul, Daerah Istimewa Yogyakarta, Indonesia",
-    "lat": -7.9930377,
-    "lon": 110.5579309,
-    "sourceUrl": "https://jadwallari.id/events/jungwok-sunset-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "0b1f82c8e56064d7"
-  },
-  {
     "name": "AGRIRUNFEST 2026",
     "date": "2026-11-08",
     "dateRaw": "8 November 2026",
