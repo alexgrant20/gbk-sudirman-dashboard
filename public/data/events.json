@@ -346,13 +346,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Jakarta Timur, DKI Jakarta",
+    "location": "MG Setos, Jl. Inspeksi, Kembangsari, Kec. Semarang Tengah, Semarang, Jawa Tengah",
     "venue": "Jakarta Timur, Daerah Khusus Ibukota Jakarta, Indonesia",
     "lat": -6.2628908,
     "lon": 106.8822289,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/ikatemi-color-run/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "28b200f5e24383b7"
   },
   {
@@ -576,6 +576,39 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "1e10688962f8ceb6"
+  },
+  {
+    "name": "Kalbe Pawrathon Fur Fun 2026",
+    "date": "2026-11-20",
+    "dateRaw": "20 November 2026 – 20 Desember 2026",
+    "categories": [
+      {
+        "distance": "Walking",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "Running",
+        "price": null,
+        "cutoffMinutes": null
+      },
+      {
+        "distance": "Cycling",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Virtual Sport",
+    "location": "Anywhere",
+    "venue": "Anywhere",
+    "lat": null,
+    "lon": null,
+    "sourceUrl": "https://jadwallari.id/events/",
+    "source": "jadwallari.id",
+    "confidence": "low",
+    "id": "79b5e57df54f8aff"
   },
   {
     "name": "Groovy Run 2026",
@@ -855,13 +888,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Jakarta Pusat, DKI Jakarta",
-    "venue": "DPD DKI Golkar, Jalan Surabaya, RW 05, Menteng, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, 10310, Indonesia",
-    "lat": -6.1976038,
-    "lon": 106.8395835,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "location": "Jakabaring Sport City, Jl. Gubernur H. A Bastari, Palembang, Sumsel",
+    "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
+    "lat": -6.1823399,
+    "lon": 106.8428715,
+    "sourceUrl": "https://jadwallari.id/events/earth-run-palembang/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "ae65b6192ef00d68"
   },
   {
@@ -1089,13 +1122,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Jakarta Pusat, DKI Jakarta",
+    "location": "Plaza Timur Gelora Bung Karno (GBK), Jakarta Pusat, DKI Jakarta",
     "venue": "Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia",
     "lat": -6.1823399,
     "lon": 106.8428715,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/she-runs-the-world-jakarta/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "c392baa7479b4a37"
   },
   {
@@ -1135,13 +1168,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Indramayu, Jawa Barat",
-    "venue": "Kecamatan Sukra, Indramayu, Jawa Barat, Indonesia",
-    "lat": -6.3035391,
-    "lon": 107.9540737,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "location": "Balai Desa Sukra, Desa Sukra, Jl. Pusaka Jaya, Sukrawetan, Kec. Sukra, Indramayu, Jawa Barat",
+    "venue": "Indramayu, Jawa Barat, Indonesia",
+    "lat": -6.4418182,
+    "lon": 108.1764705,
+    "sourceUrl": "https://jadwallari.id/events/sukra-run/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "be1e26b179283762"
   },
   {
@@ -1308,13 +1341,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Bandung, Jawa Barat",
+    "location": "GOR Saparua, Jl. Saparua No.28, Citarum, Kec. Bandung Wetan, Bandung, Jawa Barat",
     "venue": "Kota Bandung, Cibeunying Kaler, Jawa Barat, Indonesia",
     "lat": -6.9218457,
     "lon": 107.6070833,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/ahy-run-bandung/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "ca81fb3981db7165"
   },
   {
@@ -1677,13 +1710,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Purwokerto, Jawa Tengah",
+    "location": "Universitas Muhammadiyah Purwokerto (UMP) Kampus 1, Banyumas",
     "venue": "Purwokerto, Jalan Pemuda, Bantarsoka, Banyumas, Jawa Tengah, 53132, Indonesia",
     "lat": -7.4194647,
     "lon": 109.2218425,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/purwokerto-village-run/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "ae06df10911fd89d"
   },
   {
@@ -1743,13 +1776,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Semarang, Jawa Tengah",
+    "location": "Benteng Fort Willem I, Jl. Fort Willem I, Semarang, Jawa Tengah",
     "venue": "Kota Semarang, Jawa Tengah, Indonesia",
     "lat": -6.9903988,
     "lon": 110.4229104,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/rawapening-run-heritage/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "293c43f906908bd9"
   },
   {
@@ -1794,13 +1827,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Tangerang Selatan, Banten",
+    "location": "Bintaro Jaya Xchange Mall, Bintaro Jaya Sektor 7, Tangerang Selatan, Banten",
     "venue": "Tangerang Selatan, Banten, Indonesia",
     "lat": -6.3227016,
     "lon": 106.7085737,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/runwme/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "ecd2d0efebb79796"
   },
   {
@@ -1817,13 +1850,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Medan, Sumatra Utara",
+    "location": "Heylocal Store Medan, Ruko OCBC, Medan Selayang, Medan, Sumatera Utara",
     "venue": "Museum Daerah Sumatera Utara, 51, Jalan Gedung Arca, Teladan Barat, Medan Kota, Kota Medan, Sumatera Utara, 20217, Indonesia",
     "lat": 3.5679356,
     "lon": 98.6962956,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/she-runs-the-world-medan/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "ef914e8c71e3cffe"
   },
   {
@@ -1840,13 +1873,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Yogyakarta, DI Yogyakarta",
+    "location": "Heylocal Store Jogjakarta, Jl. C. Simanjuntak No.49, Yogyakarta, DIY",
     "venue": "Kota Yogyakarta, Depok, Daerah Istimewa Yogyakarta, Indonesia",
     "lat": -7.801349,
     "lon": 110.3647351,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/she-runs-the-world-yogyakarta/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "8ac4262764b3982e"
   },
   {
@@ -2226,6 +2259,29 @@
     "id": "2911c087a8d15238"
   },
   {
+    "name": "Nexthealthic Fun Run",
+    "date": "2026-12-06",
+    "dateRaw": "6 Desember 2026",
+    "categories": [
+      {
+        "distance": "5K",
+        "price": null,
+        "cutoffMinutes": null
+      }
+    ],
+    "routeImage": null,
+    "routeGeo": null,
+    "category": "Fun Run",
+    "location": "Poltekkes Kemenkes Jambi, Jl H Agus Salim, Jelutung, Kota Jambi, Jambi",
+    "venue": "Jambi, Indonesia",
+    "lat": -1.6296917,
+    "lon": 103.6077806,
+    "sourceUrl": "https://jadwallari.id/events/nexthealthic-fun-run/",
+    "source": "jadwallari.id",
+    "confidence": "high",
+    "id": "231d6c6c9ad5fc4e"
+  },
+  {
     "name": "Pertamina Eco RunFest 2026",
     "date": "2026-12-06",
     "dateRaw": "6 Desember 2026",
@@ -2277,13 +2333,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Semarang, Jawa Tengah",
+    "location": "Heylocal Store Semarang, 23 Semarang Shopping Center, Semarang, Jawa Tengah",
     "venue": "Kota Semarang, Jawa Tengah, Indonesia",
     "lat": -6.9903988,
     "lon": 110.4229104,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/she-runs-the-world-semarang/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "7bf5fd0cce43abf1"
   },
   {
@@ -2300,13 +2356,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Sungai Penuh, Jambi",
+    "location": "Heylocal Store Sungai Penuh, Jl. Muradi No. 16, Sungai Penuh, Jambi",
     "venue": "Sungai Penuh, Pesisir Bukit, Jambi, Indonesia",
     "lat": -2.0706799,
     "lon": 101.3961054,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/she-runs-the-world-sungai-penuh/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "8b72486ce788645a"
   },
   {
@@ -2435,13 +2491,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Road Run",
-    "location": "Blora, Jawa Tengah",
+    "location": "Lapangan Atletik Nglajo, Sitimulyo, Cepu, Cepu, Blora, Jawa Tengah",
     "venue": "Blora, Jawa Tengah, 58211 - 58219, Indonesia",
     "lat": -7.110613,
     "lon": 111.4204319,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/bima-cepu-run-fest/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "a1a4f238ef7a6fc7"
   },
   {
@@ -2855,13 +2911,13 @@
     "routeImage": null,
     "routeGeo": null,
     "category": "Fun Run",
-    "location": "Bandung, Jawa Barat",
+    "location": "Summarecon Mall Bandung, Jl. Grand Bulevard No. 1, Bandung, Jawa Barat",
     "venue": "Kota Bandung, Cibeunying Kaler, Jawa Barat, Indonesia",
     "lat": -6.9218457,
     "lon": 107.6070833,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "sourceUrl": "https://jadwallari.id/events/she-runs-the-world-bandung/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "10d302aef93e9daa"
   },
   {
@@ -3792,14 +3848,14 @@
     ],
     "routeImage": null,
     "routeGeo": null,
-    "category": "Road Run",
-    "location": "Probolinggo, Jawa Timur",
-    "venue": "Kota Probolinggo, Jawa Timur, Indonesia",
-    "lat": -7.7441461,
-    "lon": 113.2158401,
-    "sourceUrl": "https://jadwallari.id/events/",
+    "category": "Trail Run",
+    "location": "Plataran Bromo, Kec. Tosari, Pasuruan, Jawa Timur",
+    "venue": "Pasuruan, Jawa Timur, Indonesia",
+    "lat": -7.7508114,
+    "lon": 112.818483,
+    "sourceUrl": "https://jadwallari.id/events/bromo-marathon/",
     "source": "jadwallari.id",
-    "confidence": "medium",
+    "confidence": "high",
     "id": "b8766efd3943a6a7"
   },
   {
