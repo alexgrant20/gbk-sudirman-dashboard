@@ -1,38 +1,5 @@
 [
   {
-    "name": "Kalbe Pawrathon Fur Fun 2026",
-    "date": "2026-11-20",
-    "dateRaw": "20 November 2026 – 20 Desember 2026",
-    "categories": [
-      {
-        "distance": "Walking",
-        "price": null,
-        "cutoffMinutes": null
-      },
-      {
-        "distance": "Running",
-        "price": null,
-        "cutoffMinutes": null
-      },
-      {
-        "distance": "Cycling",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Virtual Sport",
-    "location": "Anywhere",
-    "venue": "Anywhere",
-    "lat": null,
-    "lon": null,
-    "sourceUrl": "https://jadwallari.id/events/",
-    "source": "jadwallari.id",
-    "confidence": "low",
-    "id": "79b5e57df54f8aff"
-  },
-  {
     "name": "Groovy Run 2026",
     "date": "2026-11-21",
     "dateRaw": "21 November 2026",
