@@ -1004,5 +1004,84 @@
   "she runs the world 2026 sungai penuh heylocal store sungai penuh, jl. muradi no. 16, sungai penuh, jambi": null,
   "bima cepu run fest 2026 lapangan atletik nglajo, sitimulyo, cepu, cepu, blora, jawa tengah": null,
   "she runs the world 2026 bandung summarecon mall bandung, jl. grand bulevard no. 1, bandung, jawa barat": null,
-  "bromo marathon 2027 plataran bromo, kec. tosari, pasuruan, jawa timur": null
+  "bromo marathon 2027 plataran bromo, kec. tosari, pasuruan, jawa timur": null,
+  "rocket run 5k hutan kota gelora bung karno (gbk), jl. jenderal sudirman, kota jakarta pusat, dki jakarta": null,
+  "spill run 2.0 spill &amp; bites tasikmalaya, jl. siliwangi no. 28, kahuripan, tawang, tasikmalaya, jawa barat": null,
+  "kamulyan pagilaran trail run 2026 agrowisata kebun teh pagilaran, keteleng, kec. blado, batang, jawa tengah": null,
+  "ngawi soekarno run alun-alun ngawi, jl. teuku umar no. 24, kab. ngawi, jawa timur": null,
+  "tasikmalaya, jawa barat": {
+    "label": "Tasikmalaya, Jawa Barat, Indonesia",
+    "lat": -7.3262484,
+    "lon": 108.2201154
+  },
+  "law run to give monumen jalasveva jayamahe, surabaya, jawa timur": null,
+  "adira run 2026 xt square, pintu selatan, jl. veteran no.150-151, kota yogyakarta, di yogyakarta": null,
+  "ngawi, jawa timur": {
+    "label": "Ngawi, Jawa Timur, Indonesia",
+    "lat": -7.4781536,
+    "lon": 111.2796796
+  },
+  "manacular festival 2026 jemur wonosari, kecamatan wonocolo, surabaya, jawa timur.": null,
+  "watsons run 2026 summarecon mall bandung, jl. grand bulevar no.1, gedebage, kota bandung, jawa barat": null,
+  "lembur run kampus universitas maarif hasyim latif (umaha), jl. raya ngelom megare no. 30, sidoarjo": null,
+  "hakordia bedas run dome bale rame, soreang, jl. al-fathu, pamekaran, soreang, kab. bandung, jawa barat": null,
+  "mr diy run 2026 - surabaya grand city mall surabaya, jl. walikota mustajab no. 1, surabaya, jawa timur": null,
+  "muhammadiyah tuban walk & run gor rangga jaya anoraga, jl. raya semarang - tuban no.01, tuban, jawa timur": null,
+  "naval extreme festival 2026 - sunset fun run 2026 monumen jalasveva jayamahe, surabaya, jawa timur": null,
+  "sidoarjo, jawa timur": {
+    "label": "Sidoarjo, Jawa Timur, Indonesia",
+    "lat": -7.4539769,
+    "lon": 112.6593869
+  },
+  "baron 10k pantai baron, kalurahan kemadang, kapanewon tanjungsari, gunungkidul, di yogyakarta": null,
+  "jekate running 2026 by pam jaya kawasan rasuna epicentrum, jakarta selatan, dki jakarta": null,
+  "kahf own the way run sumedang 2026 griya plaza sumedang, jl. mayor abdurahman no.163, sumedang, jawa barat": null,
+  "ntb run 2026 kantor gubernur ntb, jl. pejanggik no.12, pejanggik, kec. mataram, kota mataram, ntb": null,
+  "run tomoro tomoro coffee, jl. kartini no. 12, mangundikaran, kec. nganjuk, kab. nganjuk, jawa timur": null,
+  "runergy bojonegoro alun-alun bojonegoro, jl. imam bonjol jl. pahlawan, kab. bojonegoro, jawa timur": null,
+  "brimo run fest x gz lapangan merdeka, kota balikpapan, balikpapan, kalimantan timur": null,
+  "kbr half marathon 2026 senaya beach, kalianda, kabupaten lampung selatan, lampung": null,
+  "mataram, ntb": {
+    "label": "Mataram, Kec. Selaparang, Nusa Tenggara Barat, Indonesia",
+    "lat": -8.5837726,
+    "lon": 116.10685
+  },
+  "nganjuk, jawa timur": {
+    "label": "Nganjuk, Jawa Timur, Indonesia",
+    "lat": -7.6150161,
+    "lon": 111.9465075
+  },
+  "larata run 2026 gedung mcc lrt jakarta, jalan pegangsaan dua no.80, kota jakarta utara, dki jakarta": null,
+  "ugm ultra charity run gik ugm, kab. sleman, di yogyakarta": null,
+  "lampung selatan, lampung": {
+    "label": "Lampung Selatan, Lampung, Indonesia",
+    "lat": -5.5414886,
+    "lon": 105.5110009
+  },
+  "kds charity run 2026 alun-alun banjarnegara, jl. mayjend panjaitan no.11-3, kab. banjarnegara, jawa tengah": null,
+  "mövinc virtual fun run 2027 anywhere": null,
+  "dilem wilis trenggalek trail run agrowisata dillem wilis, trenggalek, jawa timur": null,
+  "indonesia women half marathon 2027 gbk sports complex, jl. pintu satu senayan, jakarta pusat, dki jakarta": null,
+  "khm run 2027 pemandian alam selokambang, purworejo, kec. lumajang, kabupaten lumajang, jawa timur": null,
+  "banjarnegara, jawa tengah": {
+    "label": "Banjarnegara, Jawa Tengah, Indonesia",
+    "lat": -7.3558733,
+    "lon": 109.6600728
+  },
+  "trans barelang ultra marathon 2027 jembatan barelang 1, jl. trans barelang, batam, kep. riau": null,
+  "psmti imlek fun run 7.8k simpang martabak har nagoya, lubuk baja, batam, kepulauan riau": null,
+  "brotoseno run 2027 alun-alun nganjuk, kec. nganjuk, kab. nganjuk, jawa timur|yuk, daftar sekarang!": null,
+  "lumajang, jawa timur": {
+    "label": "Lumajang, Jawa Timur, Indonesia",
+    "lat": -8.1237818,
+    "lon": 113.1436747
+  },
+  "solo imlek run 2027 balai kota surakarta, jl. jend. sudirman no.2, kota surakarta, jawa tengah": null,
+  "bfi run 2027 ice bsd city, tangerang, banten|siapkan dirimu sekarang!!!": null,
+  "dieng caldera race 2027 tambi tea resort, dieng, wonosobo, jawa tengah": null,
+  "wonosobo, jawa tengah": {
+    "label": "Wonosobo, Jawa Tengah, Indonesia",
+    "lat": -7.3997999,
+    "lon": 109.9209645
+  }
 }
