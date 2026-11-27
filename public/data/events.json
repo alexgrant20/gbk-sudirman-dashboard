@@ -466,34 +466,6 @@
     "id": "5a11afb4cbdf6a30"
   },
   {
-    "name": "PGRI Run & Fun Walk 2026",
-    "date": "2026-11-29",
-    "dateRaw": "29 November 2026",
-    "categories": [
-      {
-        "distance": "2.5K",
-        "price": null,
-        "cutoffMinutes": null
-      },
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Balai Kota Bandung, Jl. Wastukencana No.2, Kota Bandung, Jawa Barat",
-    "venue": "Kota Bandung, Cibeunying Kaler, Jawa Barat, Indonesia",
-    "lat": -6.9218457,
-    "lon": 107.6070833,
-    "sourceUrl": "https://jadwallari.id/events/pgri-run-and-fun-walk/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "d2491e21f8858ce5"
-  },
-  {
     "name": "Polibatam Run 2026",
     "date": "2026-11-29",
     "dateRaw": "29 November 2026",
@@ -520,29 +492,6 @@
     "source": "jadwallari.id",
     "confidence": "high",
     "id": "d4692ecc5cc56013"
-  },
-  {
-    "name": "Prambanan Heritage Run 2026",
-    "date": "2026-11-29",
-    "dateRaw": "29 November 2026",
-    "categories": [
-      {
-        "distance": "5K",
-        "price": null,
-        "cutoffMinutes": null
-      }
-    ],
-    "routeImage": null,
-    "routeGeo": null,
-    "category": "Fun Run",
-    "location": "Candi Prambanan, Jl. Raya Solo - Yogyakarta, Prambanan, Sleman, DI Yogyakarta",
-    "venue": "Sleman, Daerah Istimewa Yogyakarta, Indonesia",
-    "lat": -7.6894175,
-    "lon": 110.3812904,
-    "sourceUrl": "https://jadwallari.id/events/prambanan-heritage-run/",
-    "source": "jadwallari.id",
-    "confidence": "high",
-    "id": "75c4b2d7d83f1b55"
   },
   {
     "name": "Purwokerto Village Run 2026 by UMP",
